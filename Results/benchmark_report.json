@@ -1,0 +1,38 @@
+{
+  "model": "Qwen2.5-1.5B-Instruct",
+  "quantization": "4-bit NF4",
+  "total_examples": 80,
+  "valid_json": 78,
+  "valid_json_rate": 97.5,
+  "field_accuracy": {
+    "product_name": {
+      "correct": 36,
+      "total": 78,
+      "percentage": 46.2
+    },
+    "brand": {
+      "correct": 69,
+      "total": 78,
+      "percentage": 88.5
+    },
+    "category": {
+      "correct": 31,
+      "total": 78,
+      "percentage": 39.7
+    },
+    "price": {
+      "correct": 75,
+      "total": 78,
+      "percentage": 96.2
+    },
+    "condition": {
+      "correct": 68,
+      "total": 78,
+      "percentage": 87.2
+    }
+  },
+  "failed_indices": [
+    57,
+    76
+  ]
+}

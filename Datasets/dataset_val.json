@@ -1,0 +1,1550 @@
+[
+  {
+    "input": "OnePlus 12 - 6.82 inch 2K AMOLED display, Snapdragon 8 Gen 3, 16GB RAM, 512GB UFS 4.0 storage, 5400mAh battery with 100W fast charging. $799 brand new.",
+    "output": {
+      "product_name": "OnePlus 12",
+      "brand": "OnePlus",
+      "category": "Smartphones",
+      "price": {
+        "amount": 799.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "6.82 inch 2K AMOLED",
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "16GB",
+        "storage": "512GB",
+        "battery": "5400mAh",
+        "charging": "100W fast charging"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Linksys Velop MX12600 Mesh WiFi 6 system (3-pack). AX4200 per node, tri-band, covers 8100 sq ft, 100+ devices, Intelligent Mesh. $449.99. New.",
+    "output": {
+      "product_name": "Linksys Velop MX12600",
+      "brand": "Linksys",
+      "category": "Mesh System",
+      "price": {
+        "amount": 449.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6 (AX4200 per node)",
+        "band": "tri-band",
+        "coverage": "8100 sq ft",
+        "pack": "3-pack",
+        "features": "Intelligent Mesh, 100+ devices"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Apple AirPods Pro 2nd generation with USB-C. Active Noise Cancellation, Adaptive Audio, H2 chip, up to 6 hours listening time (30 hours with case). $249. New.",
+    "output": {
+      "product_name": "Apple AirPods Pro (2nd generation)",
+      "brand": "Apple",
+      "category": "Earbuds",
+      "price": {
+        "amount": 249.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "true wireless earbuds",
+        "chip": "H2",
+        "battery_life": "6 hours (30 with case)",
+        "features": "ANC, Adaptive Audio, USB-C"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "COROS VERTIX 2S adventure GPS watch. 1.4\" touchscreen, dual-frequency GNSS, offline maps, 140hr GPS battery, sapphire glass. $599.99. New.",
+    "output": {
+      "product_name": "COROS VERTIX 2S",
+      "brand": "COROS",
+      "category": "Smartwatch",
+      "price": {
+        "amount": 599.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "1.4\" touchscreen, sapphire glass",
+        "battery_life": "140 hours GPS",
+        "features": "dual-frequency GNSS, offline maps"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "ASUS RT-AX86U Pro / WiFi 6 / AX5700 / Dual-Band / 2.5G WAN / AiMesh / AiProtection / $249.99",
+    "output": {
+      "product_name": "ASUS RT-AX86U Pro",
+      "brand": "ASUS",
+      "category": "Router",
+      "price": {
+        "amount": 249.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6 (AX5700)",
+        "band": "dual-band",
+        "ports": "2.5G WAN",
+        "features": "AiMesh, AiProtection"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Tenda AC10 AC1200 dual-band router. Smart dual-band, Beamforming+, MU-MIMO, 4 antennas, Gigabit ports. ₹1,499. New.",
+    "output": {
+      "product_name": "Tenda AC10",
+      "brand": "Tenda",
+      "category": "Router",
+      "price": {
+        "amount": 1499.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 5 (AC1200)",
+        "band": "dual-band",
+        "ports": "Gigabit",
+        "features": "Beamforming+, MU-MIMO, 4 antennas"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "GL.iNet GL-AXT1800 (Slate AX) WiFi 6 travel router. AX1800, VPN, AdGuard, OpenWrt, Type-C, compact. Great for hotels. $89. New.",
+    "output": {
+      "product_name": "GL.iNet GL-AXT1800 (Slate AX)",
+      "brand": "GL.iNet",
+      "category": "Router",
+      "price": {
+        "amount": 89.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6 (AX1800)",
+        "type": "travel router",
+        "features": "VPN, AdGuard, OpenWrt, Type-C, compact"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Koorui 27E4QA 27\" QHD monitor. IPS, 100Hz, 99% sRGB, Type-C 65W, VESA mount, height adjustable. Budget USB-C. ₹15,999. New.",
+    "output": {
+      "product_name": "Koorui 27E4QA",
+      "brand": "Koorui",
+      "category": "Monitor",
+      "price": {
+        "amount": 15999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "screen_size": "27 inch",
+        "resolution": "2560x1440 (QHD)",
+        "panel_type": "IPS",
+        "refresh_rate": "100Hz",
+        "color_gamut": "99% sRGB",
+        "features": "Type-C 65W, VESA, height adjustable"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Nokia FastMile 5G Gateway. Indoor 5G CPE, WiFi 6, AX3600, mesh-capable, easy SIM-based setup, gigabit LAN ports. £349. New.",
+    "output": {
+      "product_name": "Nokia FastMile 5G Gateway",
+      "brand": "Nokia",
+      "category": "Router",
+      "price": {
+        "amount": 349.0,
+        "currency": "GBP"
+      },
+      "key_specs": {
+        "connectivity": "5G",
+        "wifi_standard": "WiFi 6 (AX3600)",
+        "type": "5G CPE",
+        "features": "mesh-capable, SIM-based setup, gigabit LAN"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Brand: Dell\nModel: Latitude 7440\nProcessor: Intel Core i7-1365U vPro\nRAM: 16GB DDR5\nStorage: 512GB SSD\nDisplay: 14\" FHD+ IPS\nPrice: $1,679\nCondition: New",
+    "output": {
+      "product_name": "Dell Latitude 7440",
+      "brand": "Dell",
+      "category": "Laptops",
+      "price": {
+        "amount": 1679.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "14 inch FHD+ IPS",
+        "processor": "Intel Core i7-1365U vPro",
+        "ram": "16GB DDR5",
+        "storage": "512GB SSD"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Realme GT 5 Pro - Snapdragon 8 Gen 3, 6.78\" 1.5K AMOLED 144Hz, 16GB+512GB, 5400mAh, 100W SuperVOOC charging. ₹39,999 brand new.",
+    "output": {
+      "product_name": "Realme GT 5 Pro",
+      "brand": "Realme",
+      "category": "Smartphones",
+      "price": {
+        "amount": 39999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "display": "6.78 inch 1.5K AMOLED 144Hz",
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "16GB",
+        "storage": "512GB",
+        "battery": "5400mAh",
+        "charging": "100W SuperVOOC"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Bang & Olufsen Beosound A1 2nd Gen Portable Speaker. 60W, Bluetooth 5.1, IP67, 18 hours battery, Alexa built-in, 360° sound, USB-C. $279.00. New.",
+    "output": {
+      "product_name": "Bang & Olufsen Beosound A1 2nd Gen",
+      "brand": "Bang & Olufsen",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 279.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "power": "60W",
+        "bluetooth": "5.1",
+        "ip_rating": "IP67",
+        "battery_life": "18 hours",
+        "features": "360° sound, Alexa built-in, USB-C"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Hisense 55A6K 55\" 4K UHD Smart TV. DTS Virtual:X, Game Mode Plus, VIDAA U6 OS, Dolby Vision. Budget 4K. $279.99. New.",
+    "output": {
+      "product_name": "Hisense 55A6K",
+      "brand": "Hisense",
+      "category": "Television",
+      "price": {
+        "amount": 279.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "55 inch",
+        "display_type": "4K UHD LED",
+        "features": "DTS Virtual:X, Game Mode Plus, VIDAA U6, Dolby Vision"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Microsoft Surface Pro 8. 13\" PixelSense Flow 120Hz, Intel Core i5-1135G7, 8GB RAM, 256GB SSD, Windows 11, Thunderbolt 4. Refurbished. $699. Grade A.",
+    "output": {
+      "product_name": "Microsoft Surface Pro 8",
+      "brand": "Microsoft",
+      "category": "Tablet",
+      "price": {
+        "amount": 699.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "processor": "Intel Core i5-1135G7",
+        "display": "13\" PixelSense Flow 120Hz",
+        "ram": "8GB",
+        "storage": "256GB SSD",
+        "os": "Windows 11",
+        "features": "Thunderbolt 4"
+      },
+      "condition": "refurbished"
+    }
+  },
+  {
+    "input": "Amazfit GTS 4 Mini smartwatch. 1.65\" AMOLED, GPS, 120+ sports, SpO2, heart rate, 15-day battery, 5ATM. Budget style. ₹6,999. New.",
+    "output": {
+      "product_name": "Amazfit GTS 4 Mini",
+      "brand": "Amazfit",
+      "category": "Smartwatch",
+      "price": {
+        "amount": 6999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "display": "1.65\" AMOLED",
+        "battery_life": "15 days",
+        "features": "GPS, 120+ sports, SpO2, heart rate, 5ATM"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Xiaomi G27i 27\" IPS gaming monitor — 165Hz, 1ms MPRT, 1080p, FreeSync, low blue light, flicker-free, VESA mount. Budget gaming at its best. ₹12,999. New.",
+    "output": {
+      "product_name": "Xiaomi G27i",
+      "brand": "Xiaomi",
+      "category": "Monitor",
+      "price": {
+        "amount": 12999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "screen_size": "27 inch",
+        "resolution": "1920x1080 (FHD)",
+        "panel_type": "IPS",
+        "refresh_rate": "165Hz",
+        "response_time": "1ms MPRT",
+        "features": "FreeSync, low blue light, flicker-free, VESA mount"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Nikon Nikkor Z 50mm f/1.8 S prime lens. S-Line optical quality, 2 ED elements, weather sealed, stepping motor AF. Z-mount. $596.95. New.",
+    "output": {
+      "product_name": "Nikon Nikkor Z 50mm f/1.8 S",
+      "brand": "Nikon",
+      "category": "Camera",
+      "price": {
+        "amount": 596.95,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "camera lens",
+        "focal_length": "50mm",
+        "aperture": "f/1.8",
+        "mount": "Nikon Z",
+        "features": "S-Line, 2 ED elements, weather sealed"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Sony FX30 Cinema Line. APS-C 20.1MP Exmor R, S-Cinetone, 4K 120fps, dual base ISO, active cooling. Affordable cinema camera. $1,798. Body only. New.",
+    "output": {
+      "product_name": "Sony FX30",
+      "brand": "Sony",
+      "category": "Camera",
+      "price": {
+        "amount": 1798.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "cinema camera (APS-C)",
+        "sensor": "20.1MP Exmor R",
+        "video": "4K 120fps",
+        "features": "S-Cinetone, dual base ISO, active cooling"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "samsung galaxy f54 5g, mid range beast with exynos 1380, 6000mah battery, 6.7\" super amoled+, 8/256gb. price is 27999 in indian rupees. brand new sealed pack.",
+    "output": {
+      "product_name": "Samsung Galaxy F54 5G",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "price": {
+        "amount": 27999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "display": "6.7 inch Super AMOLED+",
+        "processor": "Exynos 1380",
+        "ram": "8GB",
+        "storage": "256GB",
+        "battery": "6000mAh"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "got a random bluetooth speaker from a street market. no brand marking. 5W maybe? connects to phone, plays music. tinny sound. ₹300.",
+    "output": {
+      "product_name": "Bluetooth Speaker",
+      "brand": null,
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 300.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "power": "~5W",
+        "connectivity": "Bluetooth"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "TP-Link Archer AXE75 WiFi 6E router. AXE5400, tri-band, 6 GHz, 1 GHz dual-core, HomeShield, USB 3.0. $199.99. New.",
+    "output": {
+      "product_name": "TP-Link Archer AXE75",
+      "brand": "TP-Link",
+      "category": "Router",
+      "price": {
+        "amount": 199.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6E (AXE5400)",
+        "band": "tri-band",
+        "processor": "1 GHz dual-core",
+        "features": "6 GHz band, HomeShield, USB 3.0"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Netgear WAX620 WiFi 6 access point. AX3600, dual-band, 2.5G PoE, 802.11ax, Insight cloud managed. Business grade. $349.99. New.",
+    "output": {
+      "product_name": "Netgear WAX620",
+      "brand": "Netgear",
+      "category": "Access Point",
+      "price": {
+        "amount": 349.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6 (AX3600)",
+        "band": "dual-band",
+        "type": "access point",
+        "ports": "2.5G PoE",
+        "features": "Insight cloud managed, business grade"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Samsung Odyssey G9 49\" DQHD curved gaming monitor. 5120x1440, 240Hz, 1ms, 1000R curve, Quantum Mini-LED, HDR 2000, FreeSync Premium Pro. $1,299.99. New.",
+    "output": {
+      "product_name": "Samsung Odyssey G9",
+      "brand": "Samsung",
+      "category": "Monitor",
+      "price": {
+        "amount": 1299.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "49 inch",
+        "resolution": "5120x1440 (DQHD)",
+        "panel_type": "VA (Quantum Mini-LED)",
+        "refresh_rate": "240Hz",
+        "response_time": "1ms",
+        "curve": "1000R",
+        "features": "HDR 2000, FreeSync Premium Pro"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Apple MacBook Pro 13\" M2, 8GB unified memory, 256GB SSD. Great for students and everyday tasks. $1,199 new.",
+    "output": {
+      "product_name": "Apple MacBook Pro 13-inch M2",
+      "brand": "Apple",
+      "category": "Laptops",
+      "price": {
+        "amount": 1199.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "13 inch",
+        "processor": "Apple M2",
+        "ram": "8GB unified memory",
+        "storage": "256GB SSD"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "acer aspire 5, 15.6 inch fhd, i5-1235U, 8gb, 512gb ssd. barely used, great for students. $380.",
+    "output": {
+      "product_name": "Acer Aspire 5",
+      "brand": "Acer",
+      "category": "Laptops",
+      "price": {
+        "amount": 380.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "15.6 inch FHD",
+        "processor": "Intel Core i5-1235U",
+        "ram": "8GB",
+        "storage": "512GB SSD"
+      },
+      "condition": "used"
+    }
+  },
+  {
+    "input": "hey guys selling my gaming phone - rog phone 6, 16gb ram version with 512gb, sd 8+ gen 1. screen is 165hz. want 400 for it, used about a year. charger included.",
+    "output": {
+      "product_name": "ASUS ROG Phone 6",
+      "brand": "ASUS",
+      "category": "Smartphones",
+      "price": {
+        "amount": 400.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "165Hz",
+        "processor": "Snapdragon 8+ Gen 1",
+        "ram": "16GB",
+        "storage": "512GB"
+      },
+      "condition": "used"
+    }
+  },
+  {
+    "input": "Acer Nitro V gaming laptop - 15.6\" FHD 144Hz, Intel Core i5-13420H, 16GB DDR5, 512GB SSD, RTX 4050 6GB. ₹74,990 new.",
+    "output": {
+      "product_name": "Acer Nitro V",
+      "brand": "Acer",
+      "category": "Laptops",
+      "price": {
+        "amount": 74990.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "display": "15.6 inch FHD 144Hz",
+        "processor": "Intel Core i5-13420H",
+        "ram": "16GB DDR5",
+        "storage": "512GB SSD",
+        "gpu": "NVIDIA RTX 4050 6GB"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "selling samsung galaxy tab a7 lite. used for reading only. 8.7\" screen, 32gb, decent battery. perfect for ebooks. ₹6,500.",
+    "output": {
+      "product_name": "Samsung Galaxy Tab A7 Lite",
+      "brand": "Samsung",
+      "category": "Tablet",
+      "price": {
+        "amount": 6500.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "display": "8.7\"",
+        "storage": "32GB"
+      },
+      "condition": "used"
+    }
+  },
+  {
+    "input": "Lenovo ThinkPad X12 Detachable business tablet. i5-1130G7, 12.3\" FHD+ IPS, 256GB/16GB, Windows 11 Pro, ThinkPad pen, MIL-STD-810H. £999. New.",
+    "output": {
+      "product_name": "Lenovo ThinkPad X12 Detachable",
+      "brand": "Lenovo",
+      "category": "Tablet",
+      "price": {
+        "amount": 999.0,
+        "currency": "GBP"
+      },
+      "key_specs": {
+        "processor": "Intel Core i5-1130G7",
+        "display": "12.3\" FHD+ IPS",
+        "ram": "16GB",
+        "storage": "256GB",
+        "os": "Windows 11 Pro",
+        "features": "ThinkPad pen, MIL-STD-810H"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "used hp spectre x360 13.5, oled touch, i7-1255U, 16gb, 512gb ssd. convertible 2-in-1. some wear on hinges. $700.",
+    "output": {
+      "product_name": "HP Spectre x360 13.5",
+      "brand": "HP",
+      "category": "Laptops",
+      "price": {
+        "amount": 700.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "13.5 inch OLED touch",
+        "processor": "Intel Core i7-1255U",
+        "ram": "16GB",
+        "storage": "512GB SSD"
+      },
+      "condition": "used"
+    }
+  },
+  {
+    "input": "LG 48GQ900-B 48\" 4K OLED gaming monitor. 3840x2160, 120Hz (OC 138Hz), 0.1ms, HDR 10, G-Sync, FreeSync Premium. TV-sized monitor. $899.99. New.",
+    "output": {
+      "product_name": "LG 48GQ900-B",
+      "brand": "LG",
+      "category": "Monitor",
+      "price": {
+        "amount": 899.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "48 inch",
+        "resolution": "3840x2160 (4K UHD)",
+        "panel_type": "OLED",
+        "refresh_rate": "120Hz (OC 138Hz)",
+        "response_time": "0.1ms",
+        "features": "HDR 10, G-Sync, FreeSync Premium"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Cisco Meraki MR46 cloud-managed WiFi 6 access point. AX5400, tri-radio, BLE scanning, dashboard analytics, PoE, enterprise grade. $1,499. New.",
+    "output": {
+      "product_name": "Cisco Meraki MR46",
+      "brand": "Cisco",
+      "category": "Access Point",
+      "price": {
+        "amount": 1499.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6 (AX5400)",
+        "type": "cloud-managed access point",
+        "features": "tri-radio, BLE scanning, dashboard analytics, PoE, enterprise"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Fitbit Sense 2 health smartwatch. EDA sensor for stress, ECG, SpO2, skin temperature, GPS, 6+ days battery. $249.95. New.",
+    "output": {
+      "product_name": "Fitbit Sense 2",
+      "brand": "Fitbit",
+      "category": "Smartwatch",
+      "price": {
+        "amount": 249.95,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "battery_life": "6+ days",
+        "features": "EDA stress sensor, ECG, SpO2, skin temperature, GPS"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "refurbished amazon echo dot 5th gen. good as new, works perfectly. alexa, eero mesh wifi support. $19.99.",
+    "output": {
+      "product_name": "Amazon Echo Dot 5th Gen",
+      "brand": "Amazon",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 19.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "features": "Alexa, eero mesh Wi-Fi support"
+      },
+      "condition": "refurbished"
+    }
+  },
+  {
+    "input": "kids smartwatch for my 8 year old. GPS tracking, SOS button, calling, camera. no brand visible. ₹1,499.",
+    "output": {
+      "product_name": "Kids GPS Smartwatch",
+      "brand": null,
+      "category": "Smartwatch",
+      "price": {
+        "amount": 1499.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "features": "GPS tracking, SOS button, calling, camera"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "pre-owned bang & olufsen beoplay a9 4th gen. floor standing, 480W, airplay 2, chromecast, modular covers, oak legs. minor fabric mark. £1,800.",
+    "output": {
+      "product_name": "Bang & Olufsen Beoplay A9 4th Gen",
+      "brand": "Bang & Olufsen",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 1800.0,
+        "currency": "GBP"
+      },
+      "key_specs": {
+        "power": "480W",
+        "connectivity": "AirPlay 2, Chromecast, Bluetooth",
+        "features": "floor standing, modular covers, oak legs"
+      },
+      "condition": "used"
+    }
+  },
+  {
+    "input": "Realme Smart TV X 43\" Full HD with Dolby Audio, Chroma Boost Picture Engine, Android TV 11. ₹18,999 new.",
+    "output": {
+      "product_name": "Realme Smart TV X 43\"",
+      "brand": "Realme",
+      "category": "Television",
+      "price": {
+        "amount": 18999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "screen_size": "43 inch",
+        "display_type": "Full HD LED",
+        "features": "Dolby Audio, Chroma Boost, Android TV 11"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Samsung Galaxy Tab S9. Snapdragon 8 Gen 2, 11\" Dynamic AMOLED 2X 120Hz, 128GB/8GB, S Pen, IP68, 8400mAh. $799.99. New.",
+    "output": {
+      "product_name": "Samsung Galaxy Tab S9",
+      "brand": "Samsung",
+      "category": "Tablet",
+      "price": {
+        "amount": 799.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "chip": "Snapdragon 8 Gen 2",
+        "display": "11\" Dynamic AMOLED 2X 120Hz",
+        "storage": "128GB",
+        "ram": "8GB",
+        "battery": "8400mAh",
+        "features": "S Pen included, IP68"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Huawei WiFi Mesh 7 (3-pack). WiFi 6+, AX6600, tri-band, NFC onboarding, AI Life app, covers 6000 sq ft. ₹29,999. New.",
+    "output": {
+      "product_name": "Huawei WiFi Mesh 7",
+      "brand": "Huawei",
+      "category": "Mesh System",
+      "price": {
+        "amount": 29999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6+ (AX6600)",
+        "band": "tri-band",
+        "pack": "3-pack",
+        "coverage": "6000 sq ft",
+        "features": "NFC onboarding, AI Life app"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Sony A95K 65\" QD-OLED 4K Bravia XR Master Series. Cognitive Processor XR, XR Triluminos Max, Acoustic Surface Audio+. Premium flagship. $2,799.99. New.",
+    "output": {
+      "product_name": "Sony A95K",
+      "brand": "Sony",
+      "category": "Television",
+      "price": {
+        "amount": 2799.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "65 inch",
+        "display_type": "4K QD-OLED",
+        "processor": "Cognitive Processor XR",
+        "features": "XR Triluminos Max, Acoustic Surface Audio+, Master Series"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Mercusys MR90X WiFi 6 AX6000 router. Dual-band, 2.5G WAN, 160 MHz, OFDMA, Target Wake Time. Budget flagship. £99.99. New.",
+    "output": {
+      "product_name": "Mercusys MR90X",
+      "brand": "Mercusys",
+      "category": "Router",
+      "price": {
+        "amount": 99.99,
+        "currency": "GBP"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6 (AX6000)",
+        "band": "dual-band",
+        "ports": "2.5G WAN",
+        "features": "160 MHz, OFDMA, Target Wake Time"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "LG StanbyME 27\" portable touchscreen with built-in battery. 1080p IPS, 3hr battery, tilt/rotate/swivel. $999.99. New.",
+    "output": {
+      "product_name": "LG StanbyME",
+      "brand": "LG",
+      "category": "Television",
+      "price": {
+        "amount": 999.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "27 inch",
+        "display_type": "1080p IPS touchscreen",
+        "battery": "3 hours",
+        "features": "portable, tilt/rotate/swivel"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "MSI Prestige 14 Evo, business ultrabook. 14\" FHD+, Intel Core i7-13700H, Intel Iris Xe, 16GB, 512GB SSD. Lightweight at 1.4kg. €1,199 new.",
+    "output": {
+      "product_name": "MSI Prestige 14 Evo",
+      "brand": "MSI",
+      "category": "Laptops",
+      "price": {
+        "amount": 1199.0,
+        "currency": "EUR"
+      },
+      "key_specs": {
+        "display": "14 inch FHD+",
+        "processor": "Intel Core i7-13700H",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "gpu": "Intel Iris Xe",
+        "weight": "1.4kg"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Garmin Enduro 3 ultraperformance GPS watch. 1.4\" AMOLED, solar, 90-day battery smartwatch mode, multi-band GNSS, flashlight. $899.99. New.",
+    "output": {
+      "product_name": "Garmin Enduro 3",
+      "brand": "Garmin",
+      "category": "Smartwatch",
+      "price": {
+        "amount": 899.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "1.4\" AMOLED",
+        "battery_life": "90 days smartwatch mode",
+        "features": "solar, multi-band GNSS, flashlight, ultraperformance"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Transform your desktop with the Huawei MateView 28.2\" — a unique 3:2 aspect ratio 4K+ display. 3840x2560 IPS, 98% DCI-P3, wireless projection, USB-C 65W, elegant minimalist stand. ₹54,999. New.",
+    "output": {
+      "product_name": "Huawei MateView",
+      "brand": "Huawei",
+      "category": "Monitor",
+      "price": {
+        "amount": 54999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "screen_size": "28.2 inch",
+        "resolution": "3840x2560 (4K+ 3:2)",
+        "panel_type": "IPS",
+        "color_gamut": "98% DCI-P3",
+        "features": "wireless projection, USB-C 65W, minimalist stand"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Amazfit GTR 4 smartwatch. 1.43\" AMOLED, dual-band GPS, 150+ sports modes, 14-day battery, Alexa built-in. ₹16,999. New.",
+    "output": {
+      "product_name": "Amazfit GTR 4",
+      "brand": "Amazfit",
+      "category": "Smartwatch",
+      "price": {
+        "amount": 16999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "display": "1.43\" AMOLED",
+        "battery_life": "14 days",
+        "features": "dual-band GPS, 150+ sports modes, Alexa"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Supernote A5X 10.3\" e-ink note-taking tablet. E-Ink Carta HD, ATSA ceramic nib stylus, Android-based, infinite canvas. $399. New.",
+    "output": {
+      "product_name": "Supernote A5X",
+      "brand": "Supernote",
+      "category": "Tablet",
+      "price": {
+        "amount": 399.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "10.3\" E-Ink Carta HD",
+        "stylus": "ATSA ceramic nib",
+        "os": "Android-based",
+        "features": "infinite canvas, note-taking"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "used lg 27gn800 27 inch 1440p ips. 144hz, great colors, used for about 2 years. minor scratch on bezel. $150. pickup only.",
+    "output": {
+      "product_name": "LG 27GN800",
+      "brand": "LG",
+      "category": "Monitor",
+      "price": {
+        "amount": 150.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "27 inch",
+        "resolution": "2560x1440 (QHD)",
+        "panel_type": "IPS",
+        "refresh_rate": "144Hz"
+      },
+      "condition": "used"
+    }
+  },
+  {
+    "input": "Truthear HEXA IEM, 1DD+3BA quad driver, 2-pin connector, Harman-inspired tuning. $79.99 new.",
+    "output": {
+      "product_name": "Truthear HEXA",
+      "brand": "Truthear",
+      "category": "Earbuds",
+      "price": {
+        "amount": 79.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "wired in-ear monitors",
+        "driver": "1DD + 3BA quad driver",
+        "features": "2-pin connector, Harman-inspired tuning"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Nikon Z8 mirrorless camera. 45.7MP stacked CMOS, EXPEED 7, 8K 30fps/4K 120fps, 120fps burst, 3D tracking AF, 5-axis VR. $3,996.95. Body only. New.",
+    "output": {
+      "product_name": "Nikon Z8",
+      "brand": "Nikon",
+      "category": "Camera",
+      "price": {
+        "amount": 3996.95,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "mirrorless",
+        "sensor": "45.7MP stacked CMOS",
+        "processor": "EXPEED 7",
+        "video": "8K 30fps, 4K 120fps",
+        "burst_rate": "120fps",
+        "af_system": "3D tracking",
+        "stabilization": "5-axis VR"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "JBL Go 3 | Bluetooth 5.1 | IP67 | 5 hours | USB-C | 4.2W | compact | $49.95",
+    "output": {
+      "product_name": "JBL Go 3",
+      "brand": "JBL",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 49.95,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "bluetooth": "5.1",
+        "ip_rating": "IP67",
+        "battery_life": "5 hours",
+        "power": "4.2W",
+        "charging": "USB-C"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Samsung Galaxy Buds FE, ANC, 1-way speaker with bass duct, IPX2, 6hr + 21hr case. Affordable Samsung earbuds. ₹4,999 new.",
+    "output": {
+      "product_name": "Samsung Galaxy Buds FE",
+      "brand": "Samsung",
+      "category": "Earbuds",
+      "price": {
+        "amount": 4999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "type": "true wireless earbuds",
+        "battery_life": "6 hours (21 with case)",
+        "features": "ANC, bass duct, IPX2"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Apple iPhone 15 Pro Max 256GB Blue Titanium. Brand new sealed from Apple. A17 Pro chip. 6.7\" display. $1199.",
+    "output": {
+      "product_name": "Apple iPhone 15 Pro Max",
+      "brand": "Apple",
+      "category": "Smartphones",
+      "price": {
+        "amount": 1199.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "6.7 inch",
+        "processor": "A17 Pro",
+        "storage": "256GB",
+        "color": "Blue Titanium"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Sharp 70\" Aquos 4K UHD Android TV. AQUOS board, Revelation 4K engine, Dolby Vision/Atmos, Chromecast built-in. CA$1,299. New.",
+    "output": {
+      "product_name": "Sharp 70\" AQUOS 4K",
+      "brand": "Sharp",
+      "category": "Television",
+      "price": {
+        "amount": 1299.0,
+        "currency": "CAD"
+      },
+      "key_specs": {
+        "screen_size": "70 inch",
+        "display_type": "4K UHD LED",
+        "features": "AQUOS board, Revelation 4K engine, Dolby Vision/Atmos, Android TV"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Garmin Forerunner 965 running GPS watch. 1.4\" AMOLED, multi-band GPS, training readiness, race predictor, maps, 23-day battery. $599.99. New.",
+    "output": {
+      "product_name": "Garmin Forerunner 965",
+      "brand": "Garmin",
+      "category": "Smartwatch",
+      "price": {
+        "amount": 599.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "1.4\" AMOLED",
+        "battery_life": "23 days",
+        "features": "multi-band GPS, training readiness, race predictor, maps"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Fujifilm X-T5 APS-C mirrorless. 40.2MP X-Trans CMOS 5 HR, X-Processor 5, 6.2K 30fps, 15fps mechanical shutter, IBIS, film simulations. $1,699. Body only. New.",
+    "output": {
+      "product_name": "Fujifilm X-T5",
+      "brand": "Fujifilm",
+      "category": "Camera",
+      "price": {
+        "amount": 1699.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "mirrorless (APS-C)",
+        "sensor": "40.2MP X-Trans CMOS 5 HR",
+        "processor": "X-Processor 5",
+        "video": "6.2K 30fps",
+        "burst_rate": "15fps mechanical",
+        "stabilization": "IBIS",
+        "features": "film simulations"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Netgear Nighthawk M6 5G mobile hotspot (MR6150). WiFi 6, 2.5 Gbps, 32 devices, touchscreen, all-day battery. $699.99. New.",
+    "output": {
+      "product_name": "Netgear Nighthawk M6",
+      "brand": "Netgear",
+      "category": "Router",
+      "price": {
+        "amount": 699.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "connectivity": "5G",
+        "wifi_standard": "WiFi 6",
+        "type": "mobile hotspot",
+        "speed": "2.5 Gbps",
+        "features": "32 devices, touchscreen, all-day battery"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Audeze Maxwell wireless planar magnetic gaming headset. 90mm planar drivers, Dolby Atmos, Bluetooth 5.3, 80hr battery. $299 new.",
+    "output": {
+      "product_name": "Audeze Maxwell",
+      "brand": "Audeze",
+      "category": "Headphones",
+      "price": {
+        "amount": 299.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "over-ear wireless gaming",
+        "driver": "90mm planar magnetic",
+        "battery_life": "80 hours",
+        "features": "Dolby Atmos, Bluetooth 5.3"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Realme C67 budget king! Snapdragon 685 chip, 6.72\" IPS LCD 90Hz display, 6GB+128GB expandable, 33W fast charge, 5000mAh. Only ₹11,999.",
+    "output": {
+      "product_name": "Realme C67",
+      "brand": "Realme",
+      "category": "Smartphones",
+      "price": {
+        "amount": 11999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "display": "6.72 inch IPS LCD 90Hz",
+        "processor": "Snapdragon 685",
+        "ram": "6GB",
+        "storage": "128GB expandable",
+        "battery": "5000mAh",
+        "charging": "33W"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Fujifilm Instax Mini 12 instant camera. Automatic exposure, selfie mirror, close-up mode, 60mm lens. Fun film camera. $79.95. New.",
+    "output": {
+      "product_name": "Fujifilm Instax Mini 12",
+      "brand": "Fujifilm",
+      "category": "Camera",
+      "price": {
+        "amount": 79.95,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "instant film camera",
+        "lens": "60mm",
+        "features": "automatic exposure, selfie mirror, close-up mode"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Plantronics (now Poly) Voyager Focus 2 UC business headset. ANC, dual-mic boom, 19hr battery, Microsoft Teams certified. $299 new.",
+    "output": {
+      "product_name": "Poly Voyager Focus 2 UC",
+      "brand": "Poly",
+      "category": "Headphones",
+      "price": {
+        "amount": 299.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "over-ear wireless",
+        "battery_life": "19 hours",
+        "features": "ANC, dual-mic boom, Microsoft Teams certified"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Take your music everywhere with the Tribit StormBox Micro 2! Ultra-portable IP67 Bluetooth speaker with 12 hours battery, 90dB volume, XBass, strap design, USB-C. Only $59.99!",
+    "output": {
+      "product_name": "Tribit StormBox Micro 2",
+      "brand": "Tribit",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 59.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "ip_rating": "IP67",
+        "battery_life": "12 hours",
+        "max_volume": "90dB",
+        "charging": "USB-C",
+        "features": "XBass, strap design"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "The ultimate portable display — INNOCN 15.6\" OLED Portable Monitor. 3840x2160, 100% DCI-P3, 1ms, 100000:1 contrast, USB-C, mini HDMI, built-in speakers, 10-point touch. $349.99.",
+    "output": {
+      "product_name": "INNOCN 15.6\" OLED Portable Monitor",
+      "brand": "INNOCN",
+      "category": "Monitor",
+      "price": {
+        "amount": 349.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "15.6 inch",
+        "resolution": "3840x2160 (4K UHD)",
+        "panel_type": "OLED",
+        "response_time": "1ms",
+        "color_gamut": "100% DCI-P3",
+        "features": "portable, USB-C, mini HDMI, speakers, 10-point touch"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "selling my old 40 inch vizio smart tv. e-series from 2019 i think. 1080p, smartcast, works fine. $80. pickup only.",
+    "output": {
+      "product_name": "Vizio E-Series 40\"",
+      "brand": "Vizio",
+      "category": "Television",
+      "price": {
+        "amount": 80.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "40 inch",
+        "display_type": "1080p LED",
+        "features": "SmartCast"
+      },
+      "condition": "used"
+    }
+  },
+  {
+    "input": "Leica M11 rangefinder. 60MP full-frame BSI CMOS, M-mount, Triple Resolution Technology (60/36/18MP), 64GB internal, brass top plate. $8,995. New.",
+    "output": {
+      "product_name": "Leica M11",
+      "brand": "Leica",
+      "category": "Camera",
+      "price": {
+        "amount": 8995.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "rangefinder (full-frame)",
+        "sensor": "60MP BSI CMOS",
+        "mount": "M-mount",
+        "storage": "64GB internal",
+        "features": "Triple Resolution Technology, brass top plate"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Noise Luna Ring smart ring. Titanium, heart rate, SpO2, skin temperature, menstrual tracking, 7-day battery. Size 7. ₹10,999. New.",
+    "output": {
+      "product_name": "Noise Luna Ring",
+      "brand": "Noise",
+      "category": "Smartwatch",
+      "price": {
+        "amount": 10999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "form_factor": "smart ring",
+        "material": "titanium",
+        "battery_life": "7 days",
+        "features": "heart rate, SpO2, skin temperature, menstrual tracking"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Beyerdynamic DT 770 Pro studio headphones, 250 ohm impedance, closed-back reference design, velour earpads. Wired. $159. New.",
+    "output": {
+      "product_name": "Beyerdynamic DT 770 Pro",
+      "brand": "Beyerdynamic",
+      "category": "Headphones",
+      "price": {
+        "amount": 159.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "over-ear wired",
+        "impedance": "250 ohm",
+        "design": "closed-back reference"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Peplink Balance 20X SD-WAN router. Dual-WAN, 4G LTE failover, SpeedFusion VPN bonding, 5x Gigabit LAN. Business continuity. $449. New.",
+    "output": {
+      "product_name": "Peplink Balance 20X",
+      "brand": "Peplink",
+      "category": "Router",
+      "price": {
+        "amount": 449.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "SD-WAN router",
+        "connectivity": "dual-WAN + 4G LTE failover",
+        "ports": "5x Gigabit LAN",
+        "features": "SpeedFusion VPN bonding, business continuity"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Huawei MatePad Air 11.5\" tablet. Snapdragon 888, 2.8K OLED 144Hz, 256GB/8GB, HarmonyOS 3.1, M-Pencil 2, PaperMatte display option. ¥2,999. New.",
+    "output": {
+      "product_name": "Huawei MatePad Air 11.5",
+      "brand": "Huawei",
+      "category": "Tablet",
+      "price": {
+        "amount": 2999.0,
+        "currency": "CNY"
+      },
+      "key_specs": {
+        "chip": "Snapdragon 888",
+        "display": "11.5\" 2.8K OLED 144Hz",
+        "storage": "256GB",
+        "ram": "8GB",
+        "os": "HarmonyOS 3.1",
+        "features": "M-Pencil 2, PaperMatte display option"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "SteelSeries Arctis Nova Pro Wireless gaming headset. Hi-Res certified 40mm drivers, ANC, dual-wireless (2.4GHz + Bluetooth), hot-swappable batteries, OLED base station. $349.99 new.",
+    "output": {
+      "product_name": "SteelSeries Arctis Nova Pro Wireless",
+      "brand": "SteelSeries",
+      "category": "Headphones",
+      "price": {
+        "amount": 349.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "over-ear wireless gaming",
+        "driver_size": "40mm",
+        "features": "ANC, dual wireless, hot-swappable batteries, OLED base station"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Netgear Nighthawk RAXE500 WiFi 6E tri-band router. AXE11000, 1.8 GHz quad-core, 2.5G Ethernet, 12-stream, NETGEAR Armor. $549.99. New.",
+    "output": {
+      "product_name": "Netgear Nighthawk RAXE500",
+      "brand": "Netgear",
+      "category": "Router",
+      "price": {
+        "amount": 549.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6E (AXE11000)",
+        "band": "tri-band",
+        "processor": "1.8 GHz quad-core",
+        "ports": "2.5G Ethernet",
+        "features": "12-stream, NETGEAR Armor"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Anker Soundcore Motion+ 30W BT speaker. Dual driver, BassUp, Hi-Res Audio, IPX7, 12 hours, USB-C + aux. Budget audiophile pick. ₹5,499. New.",
+    "output": {
+      "product_name": "Anker Soundcore Motion+",
+      "brand": "Anker",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 5499.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "power": "30W",
+        "audio": "Hi-Res Audio",
+        "ip_rating": "IPX7",
+        "battery_life": "12 hours",
+        "features": "BassUp, dual driver, USB-C + aux"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "second hand samsung galaxy a34 5g, dimensity 1080, 6gb ram 128gb, 6.6 inch super amoled. minor wear on corners. 12000 rs",
+    "output": {
+      "product_name": "Samsung Galaxy A34 5G",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "price": {
+        "amount": 12000.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "display": "6.6 inch Super AMOLED",
+        "processor": "Dimensity 1080",
+        "ram": "6GB",
+        "storage": "128GB"
+      },
+      "condition": "used"
+    }
+  },
+  {
+    "input": "Samsung Odyssey G7 | 32\" | QHD | VA 1000R | 240Hz | 1ms | HDR 600 | G-Sync / FreeSync | $599.99",
+    "output": {
+      "product_name": "Samsung Odyssey G7",
+      "brand": "Samsung",
+      "category": "Monitor",
+      "price": {
+        "amount": 599.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "32 inch",
+        "resolution": "2560x1440 (QHD)",
+        "panel_type": "VA",
+        "curve": "1000R",
+        "refresh_rate": "240Hz",
+        "response_time": "1ms",
+        "features": "HDR 600, G-Sync, FreeSync"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Samsung Odyssey OLED G8 34\" WQHD ultrawide. 3440x1440, 175Hz, 0.03ms, QD-OLED, 1800R, HDR True Black 400, AMD FreeSync Premium Pro, smart apps. ¥148,000. New.",
+    "output": {
+      "product_name": "Samsung Odyssey OLED G8",
+      "brand": "Samsung",
+      "category": "Monitor",
+      "price": {
+        "amount": 148000.0,
+        "currency": "JPY"
+      },
+      "key_specs": {
+        "screen_size": "34 inch",
+        "resolution": "3440x1440 (WQHD)",
+        "panel_type": "QD-OLED",
+        "refresh_rate": "175Hz",
+        "response_time": "0.03ms",
+        "curve": "1800R",
+        "features": "HDR True Black 400, FreeSync Premium Pro, smart apps"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Samsung The Premiere LSP9T 4K UST triple laser projector TV. 130\" image, 2800 ANSI lumens, HDR10+, Filmmaker Mode. $6,499. New.",
+    "output": {
+      "product_name": "Samsung The Premiere LSP9T",
+      "brand": "Samsung",
+      "category": "Television",
+      "price": {
+        "amount": 6499.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "ultra short throw projector",
+        "projection_size": "up to 130 inch",
+        "resolution": "4K",
+        "brightness": "2800 ANSI lumens",
+        "features": "triple laser, HDR10+, Filmmaker Mode"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "EIZO ColorEdge CG2700X 27\" 4K HDR reference monitor. IPS, 99% Adobe RGB, 98% DCI-P3, true 10-bit, built-in calibration sensor, 24/7 operation. €3,199. New.",
+    "output": {
+      "product_name": "EIZO ColorEdge CG2700X",
+      "brand": "EIZO",
+      "category": "Monitor",
+      "price": {
+        "amount": 3199.0,
+        "currency": "EUR"
+      },
+      "key_specs": {
+        "screen_size": "27 inch",
+        "resolution": "3840x2160 (4K UHD)",
+        "panel_type": "IPS",
+        "color_gamut": "99% Adobe RGB, 98% DCI-P3",
+        "color_depth": "true 10-bit",
+        "features": "HDR, built-in calibration sensor, 24/7 operation"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Turtle Beach Stealth 700 Gen 2 MAX gaming headset, 50mm Nanoclear drivers, Bluetooth + wireless, flip-to-mute mic, 40hr battery. Works with PS5/Xbox/PC. $149.99 new.",
+    "output": {
+      "product_name": "Turtle Beach Stealth 700 Gen 2 MAX",
+      "brand": "Turtle Beach",
+      "category": "Headphones",
+      "price": {
+        "amount": 149.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "over-ear wireless gaming",
+        "driver_size": "50mm Nanoclear",
+        "battery_life": "40 hours",
+        "features": "Bluetooth + wireless, flip-to-mute mic, multi-platform"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "no name trail camera for wildlife. 20mp photos, 1080p video, infrared night vision, motion activated, IP66 waterproof. ₹3,499.",
+    "output": {
+      "product_name": "Trail Camera",
+      "brand": null,
+      "category": "Camera",
+      "price": {
+        "amount": 3499.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "type": "trail/wildlife camera",
+        "photo": "20MP",
+        "video": "1080p",
+        "features": "infrared night vision, motion activated, IP66"
+      },
+      "condition": "new"
+    }
+  },
+  {
+    "input": "Nikon Z6 III mirrorless. 24.5MP partially stacked CMOS, EXPEED 7, 6K 60fps, 120fps burst, 3D tracking, 5-axis VR. $2,496.95. Body only. New.",
+    "output": {
+      "product_name": "Nikon Z6 III",
+      "brand": "Nikon",
+      "category": "Camera",
+      "price": {
+        "amount": 2496.95,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "mirrorless (full-frame)",
+        "sensor": "24.5MP partially stacked CMOS",
+        "processor": "EXPEED 7",
+        "video": "6K 60fps",
+        "burst_rate": "120fps",
+        "features": "3D tracking, 5-axis VR"
+      },
+      "condition": "new"
+    }
+  }
+]

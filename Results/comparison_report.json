@@ -1,0 +1,73 @@
+{
+  "base_model": {
+    "model": "Qwen2.5-1.5B-Instruct",
+    "quantization": "4-bit NF4",
+    "total_examples": 80,
+    "valid_json": 78,
+    "valid_json_rate": 97.5,
+    "field_accuracy": {
+      "product_name": {
+        "correct": 36,
+        "total": 78,
+        "percentage": 46.2
+      },
+      "brand": {
+        "correct": 69,
+        "total": 78,
+        "percentage": 88.5
+      },
+      "category": {
+        "correct": 31,
+        "total": 78,
+        "percentage": 39.7
+      },
+      "price": {
+        "correct": 75,
+        "total": 78,
+        "percentage": 96.2
+      },
+      "condition": {
+        "correct": 68,
+        "total": 78,
+        "percentage": 87.2
+      }
+    },
+    "failed_indices": [
+      57,
+      76
+    ]
+  },
+  "fine_tuned": {
+    "model": "Qwen2.5-1.5B-Instruct + LoRA",
+    "total_examples": 80,
+    "valid_json": 80,
+    "valid_json_rate": 100.0,
+    "field_accuracy": {
+      "product_name": {
+        "correct": 51,
+        "total": 80,
+        "percentage": 63.7
+      },
+      "brand": {
+        "correct": 73,
+        "total": 80,
+        "percentage": 91.2
+      },
+      "category": {
+        "correct": 61,
+        "total": 80,
+        "percentage": 76.2
+      },
+      "price": {
+        "correct": 79,
+        "total": 80,
+        "percentage": 98.8
+      },
+      "condition": {
+        "correct": 73,
+        "total": 80,
+        "percentage": 91.2
+      }
+    }
+  }
+}

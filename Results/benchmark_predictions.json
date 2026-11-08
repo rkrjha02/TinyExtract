@@ -1,0 +1,1620 @@
+[
+  {
+    "input": "Nothing Ear (2) transparent design earbuds. 11.6mm custom driver, LHDC 5.0, personalized ANC, IP54 rated. 4 hours + 22.5 with case. $149. New.",
+    "expected": {
+      "product_name": "Nothing Ear (2)",
+      "brand": "Nothing",
+      "category": "Earbuds",
+      "price": {
+        "amount": 149.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "true wireless earbuds",
+        "driver_size": "11.6mm",
+        "battery_life": "4 hours (22.5 with case)",
+        "features": "ANC, LHDC 5.0, IP54"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Nothing Ear (2)\",\n  \"brand\": \"Nothing\",\n  \"category\": \"earbuds\",\n  \"price\": {\n    \"amount\": 149,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"driver_size\": \"11.6mm\",\n    \"lhdc_version\": \"LHDC 5.0\",\n    \"anc_feature\": \"personalized ANC\",\n    \"case_type\": \"IP54 rated\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Nikon COOLPIX P1000 superzoom. 16MP BSI CMOS, 24-3000mm equivalent 125x optical zoom, 4K UHD video, RAW support. \u20b974,950. New.",
+    "expected": {
+      "product_name": "Nikon COOLPIX P1000",
+      "brand": "Nikon",
+      "category": "Camera",
+      "price": {
+        "amount": 74950.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "type": "bridge/superzoom",
+        "sensor": "16MP BSI CMOS",
+        "zoom": "125x optical (24-3000mm equiv)",
+        "video": "4K UHD",
+        "features": "RAW support"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Nikon COOLPIX P1000\",\n  \"brand\": \"Nikon\",\n  \"category\": \"Camera\",\n  \"price\": {\n    \"amount\": 74950,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"resolution\": \"16MP\",\n    \"optical_zoom\": \"24-3000mm\",\n    \"video_resolution\": \"4K UHD\",\n    \"video_mode\": \"RAW support\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Unleash your gaming potential with the AOC AGON AG274QZM! 27\" QHD Mini-LED powerhouse with 240Hz refresh, 1ms GtG, 1000+ nits HDR, 576 local dimming zones. Adaptive-Sync for buttery smooth gameplay. $799.99.",
+    "expected": {
+      "product_name": "AOC AGON AG274QZM",
+      "brand": "AOC",
+      "category": "Monitor",
+      "price": {
+        "amount": 799.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "27 inch",
+        "resolution": "2560x1440 (QHD)",
+        "panel_type": "Mini-LED",
+        "refresh_rate": "240Hz",
+        "response_time": "1ms GtG",
+        "brightness": "1000+ nits",
+        "dimming_zones": "576",
+        "features": "Adaptive-Sync, HDR"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"AOC AGON AG274QZM\",\n  \"brand\": \"AOC\",\n  \"category\": \"Monitor\",\n  \"price\": {\n    \"amount\": 799.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"display_size\": \"27 inches\",\n    \"resolution\": \"QHD\",\n    \"refresh_rate\": \"240 Hz\",\n    \"gaming_gamut\": \"GtG\",\n    \"brightness\": \"1000+ nits\",\n    \"hdmi_outs\": \"HDR\",\n    \"local_dimming_zones\": \"576\",\n    \"adaptive_sync\": \"Yes (Adaptive-Sync)\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Google Pixel Watch. 41mm, Exynos 9110 + Cortex-M33, 1.2\" AMOLED, Fitbit integration, ECG, 24hr battery. $349.99 new.",
+    "expected": {
+      "product_name": "Google Pixel Watch",
+      "brand": "Google",
+      "category": "Smartwatch",
+      "price": {
+        "amount": 349.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "case_size": "41mm",
+        "chip": "Exynos 9110 + Cortex-M33",
+        "display": "1.2\" AMOLED",
+        "battery_life": "24 hours",
+        "features": "Fitbit integration, ECG"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Google Pixel Watch\",\n  \"brand\": \"Google\",\n  \"category\": \"Watches\",\n  \"price\": {\n    \"amount\": 349.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"1.2 inches\",\n    \"battery_life\": \"24 hours\",\n    \"connectivity\": [\n      \"Exynos 9110\",\n      \"Cortex-M33\",\n      \"Fitbit integration\"\n    ],\n    \"health_features\": [\"ECG\"]\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "ASUS ROG Rapture GT-AX11000 Pro WiFi 6 gaming router. AX11000, tri-band, 2 GHz quad-core, 2.5G WAN+LAN, Game Acceleration, AURA RGB. $449.99. New.",
+    "expected": {
+      "product_name": "ASUS ROG Rapture GT-AX11000 Pro",
+      "brand": "ASUS",
+      "category": "Router",
+      "price": {
+        "amount": 449.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6 (AX11000)",
+        "band": "tri-band",
+        "processor": "2 GHz quad-core",
+        "ports": "2.5G WAN+LAN",
+        "features": "Game Acceleration, AURA RGB"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"ROG Rapture GT-AX11000 Pro WiFi 6 Gaming Router\",\n  \"brand\": \"ASUS\",\n  \"category\": \"Router\",\n  \"price\": {\n    \"amount\": 449.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"Tri-Band\": true,\n    \"Quad-Core Processor\": true,\n    \"2.5G WAN+LAN\": true,\n    \"Game Acceleration\": true,\n    \"AURA RGB\": true\n  },\n  \"condition\": \"New\"\n}"
+  },
+  {
+    "input": "refurbished linksys wrt3200acm open-source wifi router. ac3200, tri-stream, openwrt compatible, 1.8ghz dual-core. $80. grade a.",
+    "expected": {
+      "product_name": "Linksys WRT3200ACM",
+      "brand": "Linksys",
+      "category": "Router",
+      "price": {
+        "amount": 80.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 5 (AC3200)",
+        "processor": "1.8 GHz dual-core",
+        "features": "tri-stream, OpenWrt compatible"
+      },
+      "condition": "refurbished"
+    },
+    "predicted": "{\n  \"product_name\": \"linksys wrt3200acm\",\n  \"brand\": \"linksys\",\n  \"category\": \"router\",\n  \"price\": {\n    \"amount\": 80,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"bandwidth\": \"ac3200\",\n    \"streaming\": \"tri-stream\",\n    \"openwrt_compatibility\": true,\n    \"processor_speed\": \"1.8GHz\",\n    \"number_of_cores\": \"dual-core\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Dell G15 5530 - i7-13650HX / RTX 4060 / 16GB DDR5 / 512GB SSD / 15.6\" FHD 165Hz / \u20b91,04,990",
+    "expected": {
+      "product_name": "Dell G15 5530",
+      "brand": "Dell",
+      "category": "Laptops",
+      "price": {
+        "amount": 104990.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "display": "15.6 inch FHD 165Hz",
+        "processor": "Intel Core i7-13650HX",
+        "ram": "16GB DDR5",
+        "storage": "512GB SSD",
+        "gpu": "NVIDIA RTX 4060"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Dell G15 5530\",\n  \"brand\": \"Dell\",\n  \"category\": \"Laptop\",\n  \"price\": {\n    \"amount\": 104990,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"processor\": \"i7-13650HX\",\n    \"graphics_card\": \"RTX 4060\",\n    \"ram\": \"16GB DDR5\",\n    \"storage\": \"512GB SSD\",\n    \"screen_size\": \"15.6 inches\",\n    \"resolution\": \"FHD\",\n    \"refresh_rate\": \"165Hz\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "cheap wifi router from local shop. no brand on it. 300mbps, 2 antennas, 4 lan ports. basic but works for small apartment. \u20b9699.",
+    "expected": {
+      "product_name": "300Mbps WiFi Router",
+      "brand": null,
+      "category": "Router",
+      "price": {
+        "amount": 699.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "speed": "300 Mbps",
+        "antennas": "2",
+        "ports": "4 LAN"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"cheap wifi router\",\n  \"brand\": null,\n  \"category\": \"router\",\n  \"price\": {\n    \"amount\": 699,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"bandwidth\": \"300mbps\",\n    \"antennas\": \"2\",\n    \"lan_ports\": \"4\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Dell XPS 15 9530 laptop. 15.6\" 3.5K OLED touch display, Intel Core i9-13900H, 32GB DDR5 RAM, 1TB NVMe SSD, NVIDIA RTX 4070. $2,199 new.",
+    "expected": {
+      "product_name": "Dell XPS 15 9530",
+      "brand": "Dell",
+      "category": "Laptops",
+      "price": {
+        "amount": 2199.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "15.6 inch 3.5K OLED touch",
+        "processor": "Intel Core i9-13900H",
+        "ram": "32GB DDR5",
+        "storage": "1TB NVMe SSD",
+        "gpu": "NVIDIA RTX 4070"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Dell XPS 15 9530\",\n  \"brand\": \"Dell\",\n  \"category\": \"laptop\",\n  \"price\": {\n    \"amount\": 2199,\n    \"currency\": \"USD\"\n  },\n  \"key_specs\": {\n    \"display\": \"3.5K OLED touch\",\n    \"processor\": \"Intel Core i9-13900H\",\n    \"memory\": \"32GB DDR5 RAM\",\n    \"storage\": \"1TB NVMe SSD\",\n    \"graphics_card\": \"NVIDIA RTX 4070\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "iFFALCON 55K72 55\" QLED 4K TV by TCL. Quantum Dot, 24W Dolby Audio, Google TV, Wide Color Gamut. \u20b935,999. New.",
+    "expected": {
+      "product_name": "iFFALCON 55K72",
+      "brand": "iFFALCON",
+      "category": "Television",
+      "price": {
+        "amount": 35999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "screen_size": "55 inch",
+        "display_type": "4K QLED",
+        "features": "Quantum Dot, 24W Dolby Audio, Google TV, Wide Color Gamut"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"iFFALCON 55K72 55\\\" QLED 4K TV\",\n  \"brand\": \"TCL\",\n  \"category\": \"TV\",\n  \"price\": {\n    \"amount\": 35999,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"display_size\": \"55\\\"\",\n    \"resolution\": \"4K\",\n    \"color_depth\": \"QLED\",\n    \"audio_quality\": \"Dolby Audio\",\n    \"connectivity\": \"Google TV\",\n    \"features\": [\n      \"Quantum Dot\",\n      \"Wide Color Gamut\"\n    ]\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "selling jbl quantum 800 gaming headset. used maybe 6 months. anc works, 2.4ghz wireless, rgb lighting, dts surround. $60.",
+    "expected": {
+      "product_name": "JBL Quantum 800",
+      "brand": "JBL",
+      "category": "Headphones",
+      "price": {
+        "amount": 60.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "over-ear wireless gaming",
+        "features": "ANC, 2.4GHz wireless, RGB, DTS surround"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"JBL Quantum 800 Gaming Headset\",\n  \"brand\": \"JBL\",\n  \"category\": \"Headphones\",\n  \"price\": {\n    \"amount\": 60,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"ANC (Active Noise Cancellation)\": \"works\",\n    \"Wireless Technology\": \"2.4GHz\",\n    \"Lighting\": \"RGB\",\n    \"Sound Quality\": \"DTS Surround\"\n  },\n  \"condition\": \"used\"\n}"
+  },
+  {
+    "input": "selling acer 24 inch basic monitor. 1080p, 60hz, vga+hdmi. no issues. office use only. \u20b94,500.",
+    "expected": {
+      "product_name": "Acer 24\" Monitor",
+      "brand": "Acer",
+      "category": "Monitor",
+      "price": {
+        "amount": 4500.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "screen_size": "24 inch",
+        "resolution": "1920x1080 (FHD)",
+        "refresh_rate": "60Hz",
+        "ports": "VGA, HDMI"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"Acer 24 Inch Basic Monitor\",\n  \"brand\": \"Acer\",\n  \"category\": \"Monitor\",\n  \"price\": {\n    \"amount\": 4500,\n    \"currency\": \"INR\"\n  },\n  \"key_specs\": {\n    \"resolution\": \"1080p\",\n    \"refresh_rate\": \"60Hz\",\n    \"input_ports\": [\"VGA\", \"HDMI\"]\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "got a s24+ to sell, 256 gigs, purple color, bought it 3 months ago but switching to iphone. 550 bucks. no issues at all, comes with original box",
+    "expected": {
+      "product_name": "Samsung Galaxy S24+",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "price": {
+        "amount": 550.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "storage": "256GB",
+        "color": "Purple"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"S24+\",\n  \"brand\": \"Unknown\",\n  \"category\": \"Smartphone\",\n  \"price\": {\n    \"amount\": 550,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"storage\": \"256GB\",\n    \"color\": \"purple\",\n    \"original_box\": true\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Google Pixel Fold first gen, 7.6\" OLED inner + 5.8\" OLED outer, Tensor G2, 12/256GB, IPX8 water resistant. Refurbished grade A. $1,099.",
+    "expected": {
+      "product_name": "Google Pixel Fold",
+      "brand": "Google",
+      "category": "Smartphones",
+      "price": {
+        "amount": 1099.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "inner_display": "7.6 inch OLED",
+        "outer_display": "5.8 inch OLED",
+        "processor": "Google Tensor G2",
+        "ram": "12GB",
+        "storage": "256GB",
+        "water_resistance": "IPX8"
+      },
+      "condition": "refurbished"
+    },
+    "predicted": "{\n  \"product_name\": \"Google Pixel Fold\",\n  \"brand\": \"Google\",\n  \"category\": \"Smartphones\",\n  \"price\": {\n    \"amount\": 1099,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"display_type\": \"OLED\",\n    \"screen_sizes\": [\"7.6\\\" OLED inner\", \"5.8\\\" OLED outer\"],\n    \"processor\": \"Tensor G2\",\n    \"storage_options\": [\n      { \"size\": \"12\", \"type\": \"GB\" },\n      { \"size\": \"256\", \"type\": \"GB\" }\n    ],\n    \"water_resistant\": true,\n    \"condition\": \"refurbished\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "TP-Link Archer AX73 WiFi 6 router. AX5400, dual-band, 1.5 GHz triple-core, OneMesh, HomeShield, USB 3.0, 6 antennas. $149.99. New.",
+    "expected": {
+      "product_name": "TP-Link Archer AX73",
+      "brand": "TP-Link",
+      "category": "Router",
+      "price": {
+        "amount": 149.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6 (AX5400)",
+        "band": "dual-band",
+        "processor": "1.5 GHz triple-core",
+        "features": "OneMesh, HomeShield, USB 3.0, 6 antennas"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"TP-Link Archer AX73 WiFi 6 Router\",\n  \"brand\": \"TP-Link\",\n  \"category\": \"Router\",\n  \"price\": {\n    \"amount\": 149.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"bandwidth\": \"AX5400\",\n    \"antennas\": \"6 antennas\",\n    \"cores\": \"triple-core\",\n    \"frequency\": \"1.5 GHz\",\n    \"type\": \"dual-band\",\n    \"mesh\": \"OneMesh\",\n    \"usb\": \"USB 3.0\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Philips Fidelio L4 over-ear ANC headphones, 40mm LCP drivers, 50hr battery, Bluetooth 5.3 multipoint, Hi-Res. \u20ac349. New.",
+    "expected": {
+      "product_name": "Philips Fidelio L4",
+      "brand": "Philips",
+      "category": "Headphones",
+      "price": {
+        "amount": 349.0,
+        "currency": "EUR"
+      },
+      "key_specs": {
+        "type": "over-ear wireless",
+        "driver_size": "40mm LCP",
+        "battery_life": "50 hours",
+        "features": "ANC, Bluetooth 5.3 multipoint, Hi-Res"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Philips Fidelio L4\",\n  \"brand\": \"Philips\",\n  \"category\": \"headphones\",\n  \"price\": {\n    \"amount\": 349,\n    \"currency\": \"EUR\"\n  },\n  \"key_specs\": {\n    \"drivers\": \"40mm LCP\",\n    \"battery_life\": \"50 hours\",\n    \"connectivity\": \"Bluetooth 5.3 multipoint\",\n    \"audio_quality\": \"Hi-Res\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "used bose soundlink revolve+ ii. 360 sound, 17 hours battery. bought a year ago. works perfectly, barely used. $150.",
+    "expected": {
+      "product_name": "Bose SoundLink Revolve+ II",
+      "brand": "Bose",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 150.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "sound": "360\u00b0",
+        "battery_life": "17 hours"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"Bose SoundLink Revolve+ II\",\n  \"brand\": \"Bose\",\n  \"category\": \"Wireless Headphones\",\n  \"price\": {\n    \"amount\": 150,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"Sound Quality\": \"360 sound\",\n    \"Battery Life\": \"17 hours\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Sony FE 70-200mm f/2.8 GM OSS II telephoto zoom lens. Nano AR Coating II, XD Linear Motors, 4 stops OSS. E-mount. $2,798. New.",
+    "expected": {
+      "product_name": "Sony FE 70-200mm f/2.8 GM OSS II",
+      "brand": "Sony",
+      "category": "Camera",
+      "price": {
+        "amount": 2798.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "camera lens",
+        "focal_length": "70-200mm",
+        "aperture": "f/2.8",
+        "mount": "Sony E",
+        "features": "G Master, XD Linear Motors, 4 stops OSS"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Sony FE 70-200mm f/2.8 GM OSS II telephoto zoom lens\",\n  \"brand\": \"Sony\",\n  \"category\": \"Camera Lens\",\n  \"price\": {\n    \"amount\": 2798,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"zoom_range\": [70, 200],\n    \"aperture_f_stop\": 2.8,\n    \"shutter_speed\": \"4 stops\",\n    \"o_s_s\": \"OSS (Optical Stabilization)\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Fire-Boltt Xplode 1500 bluetooth speaker. 40W, 24 hours, IPX7, TWS, BT 5.0, dynamic RGB lights, Type-C. \u20b92,999. New.",
+    "expected": {
+      "product_name": "Fire-Boltt Xplode 1500",
+      "brand": "Fire-Boltt",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 2999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "power": "40W",
+        "bluetooth": "5.0",
+        "ip_rating": "IPX7",
+        "battery_life": "24 hours",
+        "features": "TWS, RGB lights, Type-C"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Fire-Boltt Xplode 1500 Bluetooth Speaker\",\n  \"brand\": \"Unknown\",\n  \"category\": \"Speakers\",\n  \"price\": {\n    \"amount\": 2999,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"power\": 40,\n    \"battery_life\": 24,\n    \"water_resistance\": \"IPX7\",\n    \"wireless_connection\": \"TWS (Bluetooth 5.0)\",\n    \"lighting\": \"dynamic RGB lights\"\n  },\n  \"condition\": \"New\"\n}"
+  },
+  {
+    "input": "ASUS ProArt PA32UCX-PK 32\" 4K HDR Mini-LED professional monitor. 3840x2160, IPS, 1200 nits, 1152 dimming zones, Dolby Vision, Thunderbolt 3, hardware calibration. $3,499. New.",
+    "expected": {
+      "product_name": "ASUS ProArt PA32UCX-PK",
+      "brand": "ASUS",
+      "category": "Monitor",
+      "price": {
+        "amount": 3499.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "32 inch",
+        "resolution": "3840x2160 (4K UHD)",
+        "panel_type": "IPS Mini-LED",
+        "brightness": "1200 nits",
+        "dimming_zones": "1152",
+        "features": "Dolby Vision, Thunderbolt 3, hardware calibration"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"ASUS ProArt PA32UCX-PK\",\n  \"brand\": \"ASUS\",\n  \"category\": \"Monitor\",\n  \"price\": {\n    \"amount\": 3499,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"resolution\": \"3840x2160\",\n    \"refresh_rate\": \"1200 nits\",\n    \"number_of_dimming_zones\": \"1152\",\n    \"hdmi_outs\": \"Thunderbolt 3\",\n    \"display_type\": \"IPS\",\n    \"color_depth\": \"Dolby Vision\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Coocaa 40S3U Pro 40\" Full HD Smart TV. Chameleon Extreme, Dolby Audio, YouTube/Netflix built-in, frameless. \u20b912,999. New.",
+    "expected": {
+      "product_name": "Coocaa 40S3U Pro",
+      "brand": "Coocaa",
+      "category": "Television",
+      "price": {
+        "amount": 12999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "screen_size": "40 inch",
+        "display_type": "Full HD LED",
+        "features": "Chameleon Extreme, Dolby Audio, frameless, Smart TV"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Coocaa 40S3U Pro 40\\\" Full HD Smart TV\",\n  \"brand\": \"Coocaa\",\n  \"category\": \"Smart TV\",\n  \"price\": {\n    \"amount\": 12999,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"display_size\": \"40 inches\",\n    \"resolution\": \"Full HD\",\n    \"features\": [\n      \"Chameleon Extreme\",\n      \"Dolby Audio\",\n      \"YouTube/Netflix built-in\",\n      \"frameless\"\n    ]\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Sonos Roam 2 Portable Smart Speaker. Wi-Fi + Bluetooth, automatic Trueplay tuning, IP67, 10 hours battery, USB-C, AirPlay 2, Alexa + Google Assistant. $179.00. New.",
+    "expected": {
+      "product_name": "Sonos Roam 2",
+      "brand": "Sonos",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 179.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "connectivity": "Wi-Fi + Bluetooth",
+        "ip_rating": "IP67",
+        "battery_life": "10 hours",
+        "charging": "USB-C",
+        "features": "Trueplay, AirPlay 2, Alexa, Google Assistant"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Sonos Roam 2 Portable Smart Speaker\",\n  \"brand\": \"Sonos\",\n  \"category\": \"Speakers\",\n  \"price\": {\n    \"amount\": 179,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"battery_life\": 10,\n    \"connectivity\": [\"Wi-Fi\", \"Bluetooth\"],\n    \"audio_tuning\": \"Trueplay\",\n    \"water_resistance\": \"IP67\",\n    \"smart_features\": [\"AirPlay 2\", \"Alexa\", \"Google Assistant\"]\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Apple MacBook Pro 16-inch (2023) with M3 Max chip, 36GB unified memory, 1TB SSD, Liquid Retina XDR display. $3,499. Brand new.",
+    "expected": {
+      "product_name": "Apple MacBook Pro 16-inch (2023)",
+      "brand": "Apple",
+      "category": "Laptops",
+      "price": {
+        "amount": 3499.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "16 inch Liquid Retina XDR",
+        "processor": "Apple M3 Max",
+        "ram": "36GB unified memory",
+        "storage": "1TB SSD"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Apple MacBook Pro 16-inch (2023)\",\n  \"brand\": \"Apple\",\n  \"category\": \"Laptops\",\n  \"price\": {\n    \"amount\": 3499,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"processor\": \"M3 Max\",\n    \"memory\": \"36GB\",\n    \"storage\": \"1TB SSD\",\n    \"display\": \"Liquid Retina XDR\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "random disposable camera 27 exposures, 400 ISO film, built-in flash. brand is Kodak FunSaver. great for parties. $14.99 new.",
+    "expected": {
+      "product_name": "Kodak FunSaver",
+      "brand": "Kodak",
+      "category": "Camera",
+      "price": {
+        "amount": 14.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "disposable film camera",
+        "film": "27 exposures, 400 ISO",
+        "features": "built-in flash"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"random disposable camera\",\n  \"brand\": \"Kodak FunSaver\",\n  \"category\": \"camera\",\n  \"price\": {\n    \"amount\": 14.99,\n    \"currency\": \"USD\"\n  },\n  \"key_specs\": {\n    \"exposures\": 27,\n    \"ISO\": 400,\n    \"flash\": \"built-in\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Dell Precision 5680 mobile workstation. 16\" 3.8K OLED, Intel Core i9-13900H, NVIDIA RTX 3500 Ada, 32GB DDR5, 1TB SSD. For engineering professionals. $3,249 new.",
+    "expected": {
+      "product_name": "Dell Precision 5680",
+      "brand": "Dell",
+      "category": "Laptops",
+      "price": {
+        "amount": 3249.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "16 inch 3.8K OLED",
+        "processor": "Intel Core i9-13900H",
+        "ram": "32GB DDR5",
+        "storage": "1TB SSD",
+        "gpu": "NVIDIA RTX 3500 Ada"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Dell Precision 5680 mobile workstation\",\n  \"brand\": \"Dell\",\n  \"category\": \"workstation\",\n  \"price\": {\n    \"amount\": 3249,\n    \"currency\": \"USD\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"16 inches\",\n    \"resolution\": \"3.8K\",\n    \"display_type\": \"OLED\",\n    \"processor\": \"Intel Core i9-13900H\",\n    \"graphics_card\": \"NVIDIA RTX 3500 Ada\",\n    \"memory\": \"32GB DDR5\",\n    \"storage\": \"1TB SSD\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Wacom One 13.3\" pen display (2023 model). 13.3\" FHD, 4096 pressure levels, Android/PC/Mac/Chromebook compatible. Entry-level drawing display. $399.95. New.",
+    "expected": {
+      "product_name": "Wacom One 13.3 (2023)",
+      "brand": "Wacom",
+      "category": "Tablet",
+      "price": {
+        "amount": 399.95,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "pen display",
+        "display": "13.3\" FHD",
+        "stylus": "4096 pressure levels",
+        "features": "Android/PC/Mac/Chromebook compatible"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Wacom One 13.3\\\" Pen Display\",\n  \"brand\": \"Wacom\",\n  \"category\": \"Drawing Tablet\",\n  \"price\": {\n    \"amount\": 399.95,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"13.3 inches\",\n    \"resolution\": \"FHD\",\n    \"pressure_levels\": \"4096\",\n    \"compatible_platforms\": [\"Android\", \"PC\", \"Mac\", \"Chromebook\"]\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "used samsung galaxy watch3 45mm. rotating bezel, ecg, blood pressure, fall detection. replaced battery recently. $70.",
+    "expected": {
+      "product_name": "Samsung Galaxy Watch3",
+      "brand": "Samsung",
+      "category": "Smartwatch",
+      "price": {
+        "amount": 70.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "case_size": "45mm",
+        "features": "rotating bezel, ECG, blood pressure, fall detection"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"Samsung Galaxy Watch3\",\n  \"brand\": \"Samsung\",\n  \"category\": \"smartwatch\",\n  \"price\": {\n    \"amount\": 70,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"battery_replacement_recently\": true,\n    \"ecg_blood_pressure_fall_detection_rotating_bezel\": true\n  },\n  \"condition\": \"used\"\n}"
+  },
+  {
+    "input": "Samsung Galaxy M34 5G - big battery champion! 6.5\" sAMOLED 120Hz, Exynos 1280 processor, 6GB/128GB with card slot, massive 6000mAh battery, 25W fast charging. \u20b916,499. New device.",
+    "expected": {
+      "product_name": "Samsung Galaxy M34 5G",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "price": {
+        "amount": 16499.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "display": "6.5 inch sAMOLED 120Hz",
+        "processor": "Exynos 1280",
+        "ram": "6GB",
+        "storage": "128GB with card slot",
+        "battery": "6000mAh",
+        "charging": "25W"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Samsung Galaxy M34 5G\",\n  \"brand\": \"Samsung\",\n  \"category\": \"Mobile Phone\",\n  \"price\": {\n    \"amount\": 16499,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"display\": \"sAMOLED 120Hz\",\n    \"processor\": \"Exynos 1280\",\n    \"storage\": \"6GB/128GB with card slot\",\n    \"battery\": \"massive 6000mAh\",\n    \"charging\": \"25W fast charging\"\n  },\n  \"condition\": \"New\"\n}"
+  },
+  {
+    "input": "Samsung The Serif 55\" QLED 4K \u2014 the design TV with a capital I-beam shape. Matte display, 360\u00b0 design, Art Mode. \u00a5159,800. New.",
+    "expected": {
+      "product_name": "Samsung The Serif 55\"",
+      "brand": "Samsung",
+      "category": "Television",
+      "price": {
+        "amount": 159800.0,
+        "currency": "JPY"
+      },
+      "key_specs": {
+        "screen_size": "55 inch",
+        "display_type": "4K QLED",
+        "features": "I-beam design, matte display, 360\u00b0 design, Art Mode"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Samsung The Serif 55\\\" QLED 4K\",\n  \"brand\": \"Samsung\",\n  \"category\": \"TV\",\n  \"price\": {\n    \"amount\": 159800,\n    \"currency\": \"\u00a5\"\n  },\n  \"key_specs\": {\n    \"display_type\": \"QLED\",\n    \"resolution\": \"4K\",\n    \"shape\": \"I-beam\",\n    \"material\": \"Matte\",\n    \"features\": [\n      \"360\u00b0 design\",\n      \"Art Mode\"\n    ]\n  },\n  \"condition\": \"New\"\n}"
+  },
+  {
+    "input": "refurbished sonos five wireless speaker. most powerful sonos. 3 tweeters + 3 mid-woofers. trueplay, airplay 2, line-in. grade a refurb. $350.",
+    "expected": {
+      "product_name": "Sonos Five",
+      "brand": "Sonos",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 350.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "drivers": "3 tweeters + 3 mid-woofers",
+        "connectivity": "Wi-Fi, AirPlay 2",
+        "features": "Trueplay, line-in"
+      },
+      "condition": "refurbished"
+    },
+    "predicted": "{\n  \"product_name\": \"Sonos Five Wireless Speaker\",\n  \"brand\": \"Sonos\",\n  \"category\": \"Wireless Speakers\",\n  \"price\": {\n    \"amount\": 350,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"powerful\": true,\n    \"three_tweeters_three_mid_woofers\": true,\n    \"trueplay_airplay_2_line_in\": true\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Sony Alpha A1 flagship mirrorless. 50.1MP stacked CMOS, BIONZ XR, 8K 30fps, 30fps blackout-free, 759 AF points. Professional grade. $6,498. Body only. New.",
+    "expected": {
+      "product_name": "Sony Alpha A1",
+      "brand": "Sony",
+      "category": "Camera",
+      "price": {
+        "amount": 6498.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "mirrorless (full-frame)",
+        "sensor": "50.1MP stacked CMOS",
+        "processor": "BIONZ XR",
+        "video": "8K 30fps",
+        "burst_rate": "30fps blackout-free",
+        "af_points": "759"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Sony Alpha A1\",\n  \"brand\": \"Sony\",\n  \"category\": \"Mirrorless camera\",\n  \"price\": {\n    \"amount\": 6498,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"resolution\": \"50.1MP\",\n    \"sensor_type\": \"stacked CMOS\",\n    \"image_processing_engine\": \"BIONZ XR\",\n    \"video_capability\": [\n      {\n        \"format\": \"8K\",\n        \"frame_rate\": \"30fps\",\n        \"blackout_free\": true\n      }\n    ],\n    \"focus_system\": \"759 AF points\",\n    \"professional_grade\": true\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Insta360 ONE RS 1-Inch 360 Edition. Dual 1-inch sensors by Leica, 6K 360\u00b0 video, FlowState stabilization. $799.99. New.",
+    "expected": {
+      "product_name": "Insta360 ONE RS 1-Inch 360",
+      "brand": "Insta360",
+      "category": "Camera",
+      "price": {
+        "amount": 799.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "360 camera",
+        "sensor": "dual 1-inch (Leica)",
+        "video": "6K 360\u00b0",
+        "features": "FlowState stabilization"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Insta360 ONE RS 1-Inch 360 Edition\",\n  \"brand\": \"Insta360\",\n  \"category\": \"Camera\",\n  \"price\": {\n    \"amount\": 799.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"sensor_size\": \"1-inch\",\n    \"video_resolution\": \"6K\",\n    \"stabilization\": \"FlowState\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Elevate your creativity with the ASUS ProArt StudioBook 16 OLED. Pantone Validated 16\" 4K OLED HDR display, Intel Core i9-13980HX, NVIDIA RTX 4070, 32GB DDR5, 1TB SSD. ASUS Dial for intuitive creative controls. \u20ac2,499.",
+    "expected": {
+      "product_name": "ASUS ProArt StudioBook 16 OLED",
+      "brand": "ASUS",
+      "category": "Laptops",
+      "price": {
+        "amount": 2499.0,
+        "currency": "EUR"
+      },
+      "key_specs": {
+        "display": "16 inch 4K OLED HDR Pantone Validated",
+        "processor": "Intel Core i9-13980HX",
+        "ram": "32GB DDR5",
+        "storage": "1TB SSD",
+        "gpu": "NVIDIA RTX 4070",
+        "special_feature": "ASUS Dial"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"ASUS ProArt StudioBook 16 OLED\",\n  \"brand\": \"ASUS\",\n  \"category\": \"Laptop\",\n  \"price\": {\n    \"amount\": 2499,\n    \"currency\": \"EUR\"\n  },\n  \"key_specs\": {\n    \"display\": \"Pantone Validated 16\\\" 4K OLED HDR\",\n    \"processor\": \"Intel Core i9-13980HX\",\n    \"graphics_card\": \"NVIDIA RTX 4070\",\n    \"memory\": \"32GB DDR5\",\n    \"storage\": \"1TB SSD\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "used fuji x-t30 ii, 26.1mp aps-c, film simulations are amazing. 4k 30fps. small and lightweight. body only. \u20b955,000.",
+    "expected": {
+      "product_name": "Fujifilm X-T30 II",
+      "brand": "Fujifilm",
+      "category": "Camera",
+      "price": {
+        "amount": 55000.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "type": "mirrorless (APS-C)",
+        "sensor": "26.1MP APS-C",
+        "video": "4K 30fps",
+        "features": "film simulations"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"Fuji X-T30 II\",\n  \"brand\": \"Fuji\",\n  \"category\": \"Digital Camera\",\n  \"price\": {\n    \"amount\": 55000,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"Resolution\": \"26.1MP\",\n    \"Sensor Type\": \"APS-C\",\n    \"Film Simulations\": \"amazing\",\n    \"Video Capabilities\": \"4K 30FPS\",\n    \"Size\": \"small\",\n    \"Weight\": \"lightweight\"\n  },\n  \"condition\": \"used\"\n}"
+  },
+  {
+    "input": "Dell Inspiron 15 laptop, 15.6\" FHD anti-glare, 12th Gen Intel Core i3-1215U, 8GB RAM, 256GB SSD. \u00a3449. New.",
+    "expected": {
+      "product_name": "Dell Inspiron 15",
+      "brand": "Dell",
+      "category": "Laptops",
+      "price": {
+        "amount": 449.0,
+        "currency": "GBP"
+      },
+      "key_specs": {
+        "display": "15.6 inch FHD anti-glare",
+        "processor": "Intel Core i3-1215U",
+        "ram": "8GB",
+        "storage": "256GB SSD"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Dell Inspiron 15\",\n  \"brand\": \"Dell\",\n  \"category\": \"laptop\",\n  \"price\": {\n    \"amount\": 449,\n    \"currency\": \"\u00a3\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"15.6 inches\",\n    \"display_resolution\": \"FHD (1920x1080)\",\n    \"processor\": \"Intel Core i3-1215U\",\n    \"ram\": \"8GB\",\n    \"storage\": \"256GB SSD\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Zyxel Armor G5 WiFi 6 router. AX6000, 12-stream, 2.2 GHz dual-core, 2.5G+10G WAN, 4x Gigabit LAN, Multi-Gig. \u20ac389.99. New.",
+    "expected": {
+      "product_name": "Zyxel Armor G5",
+      "brand": "Zyxel",
+      "category": "Router",
+      "price": {
+        "amount": 389.99,
+        "currency": "EUR"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6 (AX6000)",
+        "processor": "2.2 GHz dual-core",
+        "streams": "12",
+        "ports": "2.5G+10G WAN, 4x Gigabit LAN"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Zyxel Armor G5 WiFi 6 Router\",\n  \"brand\": \"Zyxel\",\n  \"category\": \"Router\",\n  \"price\": {\n    \"amount\": 389.99,\n    \"currency\": \"EUR\"\n  },\n  \"key_specs\": {\n    \"WiFi\": \"6\",\n    \"Stream\": \"12\",\n    \"Bandwidth\": \"2.2 GHz\",\n    \"Processor\": \"Dual-core\",\n    \"Connectivity\": \"2.5G+10G WAN\",\n    \"Ports\": \"4x Gigabit LAN\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Pentax K-3 III APS-C DSLR. 25.73MP CMOS, PRIME V, 12fps, 101-point AF, 5-axis SR II, weather sealed. One of the last DSLRs. $1,999.95. Body only. New.",
+    "expected": {
+      "product_name": "Pentax K-3 III",
+      "brand": "Pentax",
+      "category": "Camera",
+      "price": {
+        "amount": 1999.95,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "DSLR (APS-C)",
+        "sensor": "25.73MP CMOS",
+        "processor": "PRIME V",
+        "burst_rate": "12fps",
+        "af_points": "101",
+        "features": "5-axis SR II, weather sealed"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Pentax K-3 III APS-C DSLR\",\n  \"brand\": \"Pentax\",\n  \"category\": \"Digital Camera\",\n  \"price\": {\n    \"amount\": 1999.95,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"Resolution\": \"25.73MP\",\n    \"Shutter Speed\": \"PRIME V\",\n    \"Framerate\": \"12fps\",\n    \"Focus System\": \"101-point AF\",\n    \"Image Stabilization\": \"5-axis SR II\",\n    \"Sealing\": \"weather sealed\"\n  },\n  \"condition\": \"New\"\n}"
+  },
+  {
+    "input": "Rode NTH-100 studio headphones by the microphone company. 40mm custom-matched drivers, closed-back, CoolTech memory foam, locking cable. $149. New.",
+    "expected": {
+      "product_name": "Rode NTH-100",
+      "brand": "Rode",
+      "category": "Headphones",
+      "price": {
+        "amount": 149.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "over-ear wired closed-back",
+        "driver_size": "40mm custom-matched",
+        "features": "CoolTech memory foam, locking cable"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"NTH-100\",\n  \"brand\": \"Rode\",\n  \"category\": \"headphones\",\n  \"price\": {\n    \"amount\": 149,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"drivers\": \"40mm custom-matched\",\n    \"type\": \"closed-back\",\n    \"material\": \"CoolTech memory foam\",\n    \"cable_locking\": \"locking cable\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Colorful EVOL P16 gaming laptop from China. 16\" 2.5K 165Hz, i9-13900HX, RTX 4060, 32GB DDR5, 1TB SSD. \u00a57,999 new.",
+    "expected": {
+      "product_name": "Colorful EVOL P16",
+      "brand": "Colorful",
+      "category": "Laptops",
+      "price": {
+        "amount": 7999.0,
+        "currency": "CNY"
+      },
+      "key_specs": {
+        "display": "16 inch 2.5K 165Hz",
+        "processor": "Intel Core i9-13900HX",
+        "ram": "32GB DDR5",
+        "storage": "1TB SSD",
+        "gpu": "NVIDIA RTX 4060"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Colorful EVOL P16\",\n  \"brand\": \"Colorful\",\n  \"category\": \"gaming laptop\",\n  \"price\": {\n    \"amount\": 7999,\n    \"currency\": \"\u00a5\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"16 inches\",\n    \"resolution\": \"2.5K\",\n    \"refresh_rate\": \"165Hz\",\n    \"processor\": \"i9-13900HX\",\n    \"graphics_card\": \"RTX 4060\",\n    \"ram\": \"32GB DDR5\",\n    \"storage\": \"1TB SSD\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "D-Link COVR-X1873 WiFi 6 mesh (3-pack). AX1800, dual-band, covers 5400 sq ft, AI Mesh Optimizer, WPA3. \u20b912,999. New.",
+    "expected": {
+      "product_name": "D-Link COVR-X1873",
+      "brand": "D-Link",
+      "category": "Mesh System",
+      "price": {
+        "amount": 12999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6 (AX1800)",
+        "band": "dual-band",
+        "pack": "3-pack",
+        "coverage": "5400 sq ft",
+        "features": "AI Mesh Optimizer, WPA3"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"D-Link COVR-X1873 WiFi 6 mesh (3-pack)\",\n  \"brand\": \"D-Link\",\n  \"category\": \"WiFi 6 Mesh Router\",\n  \"price\": {\n    \"amount\": 12999,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"Wi-Fi Technology\": \"WiFi 6\",\n    \"Band\": \"Dual-Band\",\n    \"Coverage Area\": \"5400 sq ft\",\n    \"AI Feature\": \"Mesh Optimizer\",\n    \"Security Protocol\": \"WPA3\"\n  },\n  \"condition\": \"New\"\n}"
+  },
+  {
+    "input": "Sony ZV-1 II vlogging compact. 1\" Exmor RS, 18-50mm equiv zoom, 4K 30fps, side flip screen, Background Defocus. $898. New.",
+    "expected": {
+      "product_name": "Sony ZV-1 II",
+      "brand": "Sony",
+      "category": "Camera",
+      "price": {
+        "amount": 898.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "compact vlogging",
+        "sensor": "1\" Exmor RS",
+        "lens": "18-50mm equivalent zoom",
+        "video": "4K 30fps",
+        "features": "side flip screen, Background Defocus"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Sony ZV-1 II vlogging compact\",\n  \"brand\": \"Sony\",\n  \"category\": \"Camera\",\n  \"price\": {\n    \"amount\": 898,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"zoom\": \"18-50mm\",\n    \"resolution\": \"4K 30fps\",\n    \"screen_type\": \"side flip\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Jio AirFiber WiFi 6 gateway. 5G SA, speeds up to 1 Gbps, dual-band AX3000, self-install, Jio apps bundle. \u20b92,499 (device). New.",
+    "expected": {
+      "product_name": "Jio AirFiber",
+      "brand": "Jio",
+      "category": "Router",
+      "price": {
+        "amount": 2499.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "connectivity": "5G SA",
+        "wifi_standard": "WiFi 6 (AX3000)",
+        "type": "5G gateway",
+        "speed": "up to 1 Gbps",
+        "features": "self-install, Jio apps bundle"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Jio AirFiber WiFi 6 Gateway\",\n  \"brand\": \"Jio\",\n  \"category\": \"Gateway\",\n  \"price\": {\n    \"amount\": 2499,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"speeds_up_to_1_gbps\": \"true\",\n    \"dual_band_ax3000\": \"true\",\n    \"self_installation\": \"true\",\n    \"jio_apps_bundle\": \"true\"\n  },\n  \"condition\": \"New\"\n}"
+  },
+  {
+    "input": "Dell Alienware AW2724DM 27\" QHD IPS gaming monitor. 2560x1440, 180Hz, 1ms GtG, NVIDIA G-Sync, 95% DCI-P3, Creator Mode. $399.99. New.",
+    "expected": {
+      "product_name": "Alienware AW2724DM",
+      "brand": "Alienware",
+      "category": "Monitor",
+      "price": {
+        "amount": 399.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "27 inch",
+        "resolution": "2560x1440 (QHD)",
+        "panel_type": "IPS",
+        "refresh_rate": "180Hz",
+        "response_time": "1ms GtG",
+        "color_gamut": "95% DCI-P3",
+        "features": "G-Sync, Creator Mode"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Dell Alienware AW2724DM\",\n  \"brand\": \"Dell\",\n  \"category\": \"monitor\",\n  \"price\": {\n    \"amount\": 399.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"resolution\": \"2560x1440\",\n    \"refresh_rate\": \"180Hz\",\n    \"g_gamut\": \"1ms GtG\",\n    \"nvidia_graphics_sync\": \"NVIDIA G-Sync\",\n    \"color_depth\": \"95% DCI-P3\",\n    \"creator_mode\": \"Creator Mode\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Samsung Galaxy Buds2 Pro true wireless earbuds. ANC, 360 Audio, IPX7 water resistant, 24-bit Hi-Fi audio. 5 hours + 13 with case. $229. New.",
+    "expected": {
+      "product_name": "Samsung Galaxy Buds2 Pro",
+      "brand": "Samsung",
+      "category": "Earbuds",
+      "price": {
+        "amount": 229.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "true wireless earbuds",
+        "battery_life": "5 hours (18 with case)",
+        "features": "ANC, 360 Audio, IPX7, 24-bit Hi-Fi"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Samsung Galaxy Buds2 Pro\",\n  \"brand\": \"Samsung\",\n  \"category\": \"Earphones\",\n  \"price\": {\n    \"amount\": 229,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"ANC (Active Noise Cancellation)\": \"Yes\",\n    \"360 Audio\": \"Yes\",\n    \"IPX7 Water Resistant\": \"Yes\",\n    \"Hi-Fi Audio\": \"Yes\",\n    \"Battery Life (earbuds only)\": \"5 hours\",\n    \"Battery Life (with case)\": \"13 hours\"\n  },\n  \"condition\": \"New\"\n}"
+  },
+  {
+    "input": "Nothing Phone (2) with unique Glyph Interface LED lighting. 6.7 inch OLED, Snapdragon 8+ Gen 1, 12GB/256GB configuration. Retail price $599. Brand new unit.",
+    "expected": {
+      "product_name": "Nothing Phone (2)",
+      "brand": "Nothing",
+      "category": "Smartphones",
+      "price": {
+        "amount": 599.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "6.7 inch OLED",
+        "processor": "Snapdragon 8+ Gen 1",
+        "ram": "12GB",
+        "storage": "256GB",
+        "special_feature": "Glyph Interface LED lighting"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Nothing Phone (2)\",\n  \"brand\": \"Nothing\",\n  \"category\": \"smartphone\",\n  \"price\": {\n    \"amount\": 599,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"6.7 inches\",\n    \"display_type\": \"OLED\",\n    \"processor\": \"Snapdragon 8+ Gen 1\",\n    \"ram\": \"12GB\",\n    \"storage\": \"256GB\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "used tcl 65\" 4k roku tv from 2022. works great, all smart features working. wall mount included. $300.",
+    "expected": {
+      "product_name": "TCL 65\" 4K Roku TV",
+      "brand": "TCL",
+      "category": "Television",
+      "price": {
+        "amount": 300.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "65 inch",
+        "display_type": "4K LED",
+        "features": "Roku TV"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"TCL 65\\\" 4K Roku TV\",\n  \"brand\": \"TCL\",\n  \"category\": \"TV\",\n  \"price\": {\n    \"amount\": 300,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"resolution\": \"4K\",\n    \"features\": \"smart\",\n    \"mounting_type\": \"wall mount\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "IKEA SYMFONISK bookshelf speaker with Wi-Fi. Built by Sonos. AirPlay 2, Sonos app, stackable shelf design. Doubles as actual bookshelf. \u20ac99. New.",
+    "expected": {
+      "product_name": "IKEA SYMFONISK Bookshelf Speaker",
+      "brand": "IKEA",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 99.0,
+        "currency": "EUR"
+      },
+      "key_specs": {
+        "connectivity": "Wi-Fi, AirPlay 2",
+        "features": "built by Sonos, Sonos app, doubles as bookshelf"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"SYMFONISK\",\n  \"brand\": \"IKEA\",\n  \"category\": \"bookshelf speakers\",\n  \"price\": {\n    \"amount\": 99,\n    \"currency\": \"EUR\"\n  },\n  \"key_specs\": {\n    \"Wi-Fi\": true,\n    \"Sonos integration\": [\"AirPlay 2\", \"Sonos app\"],\n    \"stackable shelf design\": true\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "refurbished apple watch se 1st gen 40mm. gps, heart rate, fall detection. grade b refurb, minor scratches. $99.",
+    "expected": {
+      "product_name": "Apple Watch SE (1st gen)",
+      "brand": "Apple",
+      "category": "Smartwatch",
+      "price": {
+        "amount": 99.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "case_size": "40mm",
+        "features": "GPS, heart rate, fall detection"
+      },
+      "condition": "refurbished"
+    },
+    "predicted": "{\n  \"product_name\": \"Apple Watch SE\",\n  \"brand\": \"Apple\",\n  \"category\": \"Watches\",\n  \"price\": {\n    \"amount\": 99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"40mm\",\n    \"features\": [\"GPS\", \"Heart Rate Monitoring\", \"Fall Detection\"]\n  },\n  \"condition\": \"refurbished\"\n}"
+  },
+  {
+    "input": "Lypertek PurePlay Z5 earbuds with Qualcomm QCC3040, aptX Adaptive, IPX7, 10mm LCP drivers. 7hr + 70hr case. $99.99 new.",
+    "expected": {
+      "product_name": "Lypertek PurePlay Z5",
+      "brand": "Lypertek",
+      "category": "Earbuds",
+      "price": {
+        "amount": 99.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "true wireless earbuds",
+        "driver_size": "10mm LCP",
+        "battery_life": "7 hours (70 with case)",
+        "features": "aptX Adaptive, IPX7"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Lypertek PurePlay Z5 earbuds\",\n  \"brand\": \"Lypertek\",\n  \"category\": \"earbuds\",\n  \"price\": {\n    \"amount\": 99.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"drivers\": \"10mm LCP\",\n    \"aptX Adaptive\": \"yes\",\n    \"IPX7\": \"yes\",\n    \"case capacity\": \"7hr + 70hr\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "cheap smartwatch from aliexpress. no brand. 1.7\" screen, step counter, heart rate, sleep monitor, 5 day battery. notifications work. \u20b9999.",
+    "expected": {
+      "product_name": "Smart Watch",
+      "brand": null,
+      "category": "Smartwatch",
+      "price": {
+        "amount": 999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "display": "1.7\" screen",
+        "battery_life": "5 days",
+        "features": "step counter, heart rate, sleep monitor, notifications"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"smartwatch\",\n  \"brand\": null,\n  \"category\": \"watches\",\n  \"price\": {\n    \"amount\": 999,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"1.7 inches\",\n    \"features\": [\n      \"step counter\",\n      \"heart rate monitoring\",\n      \"sleep tracking\",\n      \"battery life (5 days)\"\n    ],\n    \"notifications\": true\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "selling my eero pro (1st gen) mesh 3-pack. still provides good coverage, about 5500 sq ft. replaced with wifi 6e. $50.",
+    "expected": {
+      "product_name": "Amazon eero Pro (1st gen)",
+      "brand": "Amazon",
+      "category": "Mesh System",
+      "price": {
+        "amount": 50.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "pack": "3-pack",
+        "coverage": "5500 sq ft"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"Eero Pro (1st Gen) Mesh\",\n  \"brand\": \"Eero\",\n  \"category\": \"Wireless Router\",\n  \"price\": {\n    \"amount\": 50,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"coverage_area\": 5500,\n    \"sq_feet\": 5500\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Acer B247Y 23.8\" FHD IPS office monitor with built-in webcam and speakers. 75Hz, USB-C, ergonomic stand. \u20ac249. New.",
+    "expected": {
+      "product_name": "Acer B247Y",
+      "brand": "Acer",
+      "category": "Monitor",
+      "price": {
+        "amount": 249.0,
+        "currency": "EUR"
+      },
+      "key_specs": {
+        "screen_size": "23.8 inch",
+        "resolution": "1920x1080 (FHD)",
+        "panel_type": "IPS",
+        "refresh_rate": "75Hz",
+        "features": "built-in webcam, speakers, USB-C, ergonomic stand"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Acer B247Y\",\n  \"brand\": \"Acer\",\n  \"category\": \"monitor\",\n  \"price\": {\n    \"amount\": 249,\n    \"currency\": \"EUR\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"23.8 inches\",\n    \"resolution\": \"FHD (1920x1200)\",\n    \"refresh_rate\": \"75Hz\",\n    \"connectivity\": \"USB-C\",\n    \"stand\": \"ergonomic\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "AOC 24G2SP / 23.8\" / FHD / IPS / 165Hz / 1ms / FreeSync / VESA / \u20b910,999",
+    "expected": {
+      "product_name": "AOC 24G2SP",
+      "brand": "AOC",
+      "category": "Monitor",
+      "price": {
+        "amount": 10999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "screen_size": "23.8 inch",
+        "resolution": "1920x1080 (FHD)",
+        "panel_type": "IPS",
+        "refresh_rate": "165Hz",
+        "response_time": "1ms",
+        "features": "FreeSync, VESA mount"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"AOC 24G2SP\",\n  \"brand\": \"AOC\",\n  \"category\": \"Monitor\",\n  \"price\": {\n    \"amount\": 10999,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"resolution\": \"FHD\",\n    \"refresh_rate\": \"165Hz\",\n    \"response_time\": \"1ms\",\n    \"touch_support\": \"FreeSync\",\n    \"interface\": \"VESA\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Experience next-gen connectivity with the TP-Link Archer BE800 WiFi 7 router! Blazing BE19000 tri-band speeds, 6 GHz band, 10G WAN+LAN, USB 3.0, built-in smart hub display. Future-proof your home! $599.99.",
+    "expected": {
+      "product_name": "TP-Link Archer BE800",
+      "brand": "TP-Link",
+      "category": "Router",
+      "price": {
+        "amount": 599.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 7 (BE19000)",
+        "band": "tri-band",
+        "ports": "10G WAN+LAN, USB 3.0",
+        "features": "6 GHz band, smart hub display"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"TP-Link Archer BE800\",\n  \"brand\": \"TP-Link\",\n  \"category\": \"Router\",\n  \"price\": {\n    \"amount\": 599.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"Tri-Band Speeds\": \"Blazing BE19000\",\n    \"6 GHz Band\": \"Yes\",\n    \"10G WAN+LAN\": \"Built-in\",\n    \"USB 3.0\": \"Yes\",\n    \"Smart Hub Display\": \"Yes\"\n  },\n  \"condition\": \"New\"\n}"
+  },
+  {
+    "input": "FiiO FH9 hybrid IEM earphones, 1DD+6BA drivers, MMCX detachable, 3 tuning filters. Audiophile portable. $499. New.",
+    "expected": {
+      "product_name": "FiiO FH9",
+      "brand": "FiiO",
+      "category": "Earbuds",
+      "price": {
+        "amount": 499.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "wired in-ear monitors",
+        "driver": "1 dynamic + 6 balanced armature hybrid",
+        "features": "MMCX detachable, 3 tuning filters"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"FiiO FH9\",\n  \"brand\": \"FiiO\",\n  \"category\": \"earphones\",\n  \"price\": {\n    \"amount\": 499,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"drivers\": \"1DD+6BA\",\n    \"tuning_filters\": \"3\",\n    \"MMCX\": \"detachable\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Your new pool party essential \u2014 the Ultimate Ears MEGABOOM 4. Booming 360\u00b0 sound, IP67, 20 hours, outdoor boost mode, one-touch music control, USB-C, removable strap. $229.99. New.",
+    "expected": {
+      "product_name": "Ultimate Ears MEGABOOM 4",
+      "brand": "Ultimate Ears",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 229.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "sound": "360\u00b0",
+        "ip_rating": "IP67",
+        "battery_life": "20 hours",
+        "charging": "USB-C",
+        "features": "outdoor boost mode, removable strap"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Ultimate Ears MEGABOOM 4\",\n  \"brand\": \"Unknown\",\n  \"category\": \"Audio Equipment\",\n  \"price\": {\n    \"amount\": 229.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"sound_quality\": \"booming 360\u00b0\",\n    \"water_resistance\": \"IP67\",\n    \"battery_life\": \"20 hours\",\n    \"mode\": \"outdoor boost\",\n    \"control_method\": \"one-touch music control\",\n    \"connectivity\": \"USB-C\",\n    \"accessibility\": \"removable strap\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "used samsung s23 ultra 512gb, snapdragon 8 gen 2, some minor scratches on back, screen perfect. 12gb ram. need to sell quick, $600 firm.",
+    "expected": {
+      "product_name": "Samsung Galaxy S23 Ultra",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "price": {
+        "amount": 600.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "12GB",
+        "storage": "512GB"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"Samsung S23 Ultra\",\n  \"brand\": \"Samsung\",\n  \"category\": \"Smartphone\",\n  \"price\": {\n    \"amount\": 600,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"RAM\": \"12GB\",\n    \"Storage\": \"512GB\",\n    \"Processor\": \"Snapdragon 8 Gen 2\"\n  },\n  \"condition\": \"used\"\n}"
+  },
+  {
+    "input": "Audio Pro C10 MkII multi-room speaker. 80W, Wi-Fi, BT 5.0, AirPlay 2, Spotify Connect, Chromecast, 3.5mm aux, Scandinavian design. \u00a3299. New.",
+    "expected": {
+      "product_name": "Audio Pro C10 MkII",
+      "brand": "Audio Pro",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 299.0,
+        "currency": "GBP"
+      },
+      "key_specs": {
+        "power": "80W",
+        "bluetooth": "5.0",
+        "connectivity": "Wi-Fi, Bluetooth, AirPlay 2, Spotify Connect, Chromecast, 3.5mm",
+        "features": "multi-room"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Audio Pro C10 MkII multi-room speaker\",\n  \"brand\": \"Unknown\",\n  \"category\": \"Speakers\",\n  \"price\": {\n    \"amount\": 299,\n    \"currency\": \"\u00a3\"\n  },\n  \"key_specs\": {\n    \"power_output\": 80W,\n    \"connectivity\": [\n      \"Wi-Fi\",\n      \"BT 5.0\",\n      \"AirPlay 2\",\n      \"Spotify Connect\",\n      \"Chromecast\"\n    ],\n    \"input_outlets\": [\n      \"3.5mm aux\"\n    ]\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Lenovo Tab M9 9\" HD tablet. MediaTek Helio G80, 32GB/3GB, dual speakers Dolby Atmos, 5100mAh, ultra-slim. \u20b910,999. New.",
+    "expected": {
+      "product_name": "Lenovo Tab M9",
+      "brand": "Lenovo",
+      "category": "Tablet",
+      "price": {
+        "amount": 10999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "chip": "MediaTek Helio G80",
+        "display": "9\" HD",
+        "storage": "32GB",
+        "ram": "3GB",
+        "battery": "5100mAh",
+        "features": "dual speakers Dolby Atmos, ultra-slim"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Lenovo Tab M9\",\n  \"brand\": \"Lenovo\",\n  \"category\": \"Tablet\",\n  \"price\": {\n    \"amount\": 10999,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"processor\": \"MediaTek Helio G80\",\n    \"storage\": \"32GB / 3GB\",\n    \"display\": \"HD\",\n    \"speaker_type\": \"dual\",\n    \"audio_format\": \"Dolby Atmos\",\n    \"battery_capacity\": \"5100mAh\",\n    \"thickness\": \"ultra-slim\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "pair of headphones found in drawer. no idea what brand. over-ear, wired, 3.5mm jack. works fine. free if you want them.",
+    "expected": {
+      "product_name": "Over-ear Headphones",
+      "brand": null,
+      "category": "Headphones",
+      "price": null,
+      "key_specs": {
+        "type": "over-ear wired",
+        "connector": "3.5mm"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"pair of headphones\",\n  \"brand\": null,\n  \"category\": \"headphones\",\n  \"price\": {\n    \"amount\": 0,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"type\": \"over-ear\",\n    \"wired\": true,\n    \"connector_type\": \"3.5mm\",\n    \"connectivity\": \"wireless\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "AIAIAI TMA-2 modular headphones where you pick the speaker, pads, headband, and cable. 40mm bio-cellulose driver, on-ear. $200 new.",
+    "expected": {
+      "product_name": "AIAIAI TMA-2",
+      "brand": "AIAIAI",
+      "category": "Headphones",
+      "price": {
+        "amount": 200.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "type": "on-ear wired",
+        "driver_size": "40mm bio-cellulose",
+        "special_feature": "modular customizable design"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"TMA-2 Modular Headphones\",\n  \"brand\": \"AIAIAI\",\n  \"category\": \"Headphones\",\n  \"price\": {\n    \"amount\": 200,\n    \"currency\": \"USD\"\n  },\n  \"key_specs\": {\n    \"driver_type\": \"40mm bio-cellulose\",\n    \"type_of_driver\": \"speaker\",\n    \"type_of_pads\": \"on-ear\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Experience the future of computing with the all-new MacBook Air M3. Impossibly thin at just 11.3mm, weighing only 1.24kg, featuring a brilliant 15.3-inch Liquid Retina display, the powerful Apple M3 chip with 8-core GPU, 8GB unified memory, and 256GB SSD. 18 hours of battery life. Starting at $1,299.",
+    "expected": {
+      "product_name": "Apple MacBook Air 15 M3",
+      "brand": "Apple",
+      "category": "Laptops",
+      "price": {
+        "amount": 1299.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "15.3 inch Liquid Retina",
+        "processor": "Apple M3",
+        "ram": "8GB unified memory",
+        "storage": "256GB SSD",
+        "battery_life": "18 hours",
+        "weight": "1.24kg"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"MacBook Air M3\",\n  \"brand\": \"Apple\",\n  \"category\": \"laptop\",\n  \"price\": {\n    \"amount\": 1299,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"display_size\": 15.3,\n    \"display_type\": \"Liquid Retina\",\n    \"battery_life\": 18,\n    \"chipset\": \"Apple M3\",\n    \"gpu_core_count\": 8,\n    \"memory_amount\": 8,\n    \"storage_capacity\": 256\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "pre-owned iphone 13 mini 128gb starlight, A15 bionic, 5.4\" super retina xdr, battery health 87%. $349",
+    "expected": {
+      "product_name": "Apple iPhone 13 Mini",
+      "brand": "Apple",
+      "category": "Smartphones",
+      "price": {
+        "amount": 349.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "5.4 inch Super Retina XDR",
+        "processor": "A15 Bionic",
+        "storage": "128GB",
+        "battery_health": "87%",
+        "color": "Starlight"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"iPhone 13 Mini\",\n  \"brand\": \"Apple\",\n  \"category\": \"Smartphone\",\n  \"price\": {\n    \"amount\": 349,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"5.4 inches\",\n    \"display_type\": \"Super Retina XDR\",\n    \"battery_health\": \"87%\"\n  },\n  \"condition\": \"used\"\n}"
+  },
+  {
+    "input": "Check out the Xiaomi 13T Pro with a 144Hz CrystalRes AMOLED display, Dimensity 9200+, and Leica professional cameras. 12GB/256GB variant.",
+    "expected": {
+      "product_name": "Xiaomi 13T Pro",
+      "brand": "Xiaomi",
+      "category": "Smartphones",
+      "price": {
+        "amount": null,
+        "currency": null
+      },
+      "key_specs": {
+        "display": "144Hz CrystalRes AMOLED",
+        "processor": "Dimensity 9200+",
+        "ram": "12GB",
+        "storage": "256GB",
+        "camera": "Leica professional cameras"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Xiaomi 13T Pro\",\n  \"brand\": \"Xiaomi\",\n  \"category\": \"Smartphone\",\n  \"price\": {\n    \"amount\": 799.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"display\": \"144Hz CrystalRes AMOLED\",\n    \"processor\": \"Dimensity 9200+\",\n    \"camera\": \"Leica professional cameras\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "used fitbit versa 3. gps, heart rate, spo2, alexa. 6 day battery. used 1.5 years, some scratches on screen. $60.",
+    "expected": {
+      "product_name": "Fitbit Versa 3",
+      "brand": "Fitbit",
+      "category": "Smartwatch",
+      "price": {
+        "amount": 60.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "battery_life": "6 days",
+        "features": "GPS, heart rate, SpO2, Alexa"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"Fitbit Versa 3\",\n  \"brand\": \"Fitbit\",\n  \"category\": \"Fitness Tracker\",\n  \"price\": {\n    \"amount\": 60,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"GPS\": true,\n    \"Heart Rate\": true,\n    \"SPO2\": true,\n    \"Alexa Integration\": true\n  },\n  \"condition\": \"used\"\n}"
+  },
+  {
+    "input": "Realme Cobble Bluetooth Speaker. 5W, BT 5.0, IPX5, 9 hours, bass radiator, 88.5dB, compact pebble design, USB-C. \u20b91,299. New.",
+    "expected": {
+      "product_name": "Realme Cobble",
+      "brand": "Realme",
+      "category": "Bluetooth Speaker",
+      "price": {
+        "amount": 1299.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "power": "5W",
+        "bluetooth": "5.0",
+        "ip_rating": "IPX5",
+        "battery_life": "9 hours",
+        "max_volume": "88.5dB",
+        "features": "bass radiator, USB-C"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Realme Cobble Bluetooth Speaker\",\n  \"brand\": \"Realme\",\n  \"category\": \"Speakers\",\n  \"price\": {\n    \"amount\": 1299,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"power\": 5,\n    \"bass_radiator\": true,\n    \"water_resistance\": \"IPX5\",\n    \"battery_life\": 9,\n    \"sound_pressure_level\": 88.5,\n    \"design\": \"compact pebble\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "MSI Creator Z16 content creation laptop. 16\" QHD+ 120Hz mini LED, Intel Core i9-13950HX, 64GB DDR5, 2TB SSD, RTX 4070. $2,999. Brand new.",
+    "expected": {
+      "product_name": "MSI Creator Z16",
+      "brand": "MSI",
+      "category": "Laptops",
+      "price": {
+        "amount": 2999.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "16 inch QHD+ 120Hz mini LED",
+        "processor": "Intel Core i9-13950HX",
+        "ram": "64GB DDR5",
+        "storage": "2TB SSD",
+        "gpu": "NVIDIA RTX 4070"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"MSI Creator Z16\",\n  \"brand\": \"MSI\",\n  \"category\": \"laptop\",\n  \"price\": {\n    \"amount\": 2999,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"16 inches\",\n    \"resolution\": \"QHD+\",\n    \"refresh_rate\": \"120Hz\",\n    \"display_type\": \"mini LED\",\n    \"processor\": \"Intel Core i9-13950HX\",\n    \"ram\": \"64GB DDR5\",\n    \"storage\": \"2TB SSD\",\n    \"gpu\": \"RTX 4070\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Apple iPad Air (4th gen) Sky Blue. A14 Bionic, 10.9\" Liquid Retina, 256GB, USB-C, Touch ID on power button. Selling because upgraded. $400.",
+    "expected": {
+      "product_name": "Apple iPad Air (4th gen)",
+      "brand": "Apple",
+      "category": "Tablet",
+      "price": {
+        "amount": 400.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "chip": "A14 Bionic",
+        "display": "10.9\" Liquid Retina",
+        "storage": "256GB",
+        "features": "USB-C, Touch ID"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"Apple iPad Air (4th gen) Sky Blue\",\n  \"brand\": \"Apple\",\n  \"category\": \"Tablet\",\n  \"price\": {\n    \"amount\": 400,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"10.9 inches\",\n    \"display_type\": \"Liquid Retina\",\n    \"storage_capacity\": \"256GB\",\n    \"connection_type\": \"USB-C\",\n    \"touch_sensor\": \"Touch ID on power button\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "ASUS RT-BE96U WiFi 7 router. BE19000, tri-band, 2x 10G ports, 2.6 GHz quad-core, AiMesh, 320 MHz channels. Flagship. $599.99. New.",
+    "expected": {
+      "product_name": "ASUS RT-BE96U",
+      "brand": "ASUS",
+      "category": "Router",
+      "price": {
+        "amount": 599.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 7 (BE19000)",
+        "band": "tri-band",
+        "processor": "2.6 GHz quad-core",
+        "ports": "2x 10G",
+        "features": "AiMesh, 320 MHz channels"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"ASUS RT-BE96U\",\n  \"brand\": \"ASUS\",\n  \"category\": \"Router\",\n  \"price\": {\n    \"amount\": 599.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"tri-band\": true,\n    \"2x 10G ports\": true,\n    \"2.6 GHz quad-core\": true,\n    \"AiMesh\": true,\n    \"320 MHz channels\": true\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "ASUS ZenScreen MB16ACV 15.6\" portable monitor. 1920x1080, IPS, USB-C, auto-rotate, 0.78kg, foldable smart case. Perfect for travel. $249. New.",
+    "expected": {
+      "product_name": "ASUS ZenScreen MB16ACV",
+      "brand": "ASUS",
+      "category": "Monitor",
+      "price": {
+        "amount": 249.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "15.6 inch",
+        "resolution": "1920x1080 (FHD)",
+        "panel_type": "IPS",
+        "weight": "0.78kg",
+        "features": "portable, USB-C, auto-rotate, foldable case"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"ASUS ZenScreen MB16ACV\",\n  \"brand\": \"ASUS\",\n  \"category\": \"Monitor\",\n  \"price\": {\n    \"amount\": 249,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"15.6 inches\",\n    \"resolution\": \"1920x1080\",\n    \"display_type\": \"IPS\",\n    \"input_port\": \"USB-C\",\n    \"auto_rotate_capability\": \"yes\",\n    \"weight\": \"0.78 kg\",\n    \"case_feature\": \"foldable smart case\",\n    \"suitability_for_travel\": \"Yes\"\n  },\n  \"condition\": \"New\"\n}"
+  },
+  {
+    "input": "MSI Katana 15 B13V: i7-13620H, RTX 4050 6GB, 16GB DDR5, 512GB SSD, 15.6\" FHD 144Hz. $999",
+    "expected": {
+      "product_name": "MSI Katana 15",
+      "brand": "MSI",
+      "category": "Laptops",
+      "price": {
+        "amount": 999.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "15.6 inch FHD 144Hz",
+        "processor": "Intel Core i7-13620H",
+        "ram": "16GB DDR5",
+        "storage": "512GB SSD",
+        "gpu": "NVIDIA RTX 4050 6GB"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"MSI Katana 15 B13V\",\n  \"brand\": \"MSI\",\n  \"category\": \"Laptop\",\n  \"price\": {\n    \"amount\": 999,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"CPU\": \"i7-13620H\",\n    \"GPU\": \"RTX 4050 6GB\",\n    \"RAM\": \"16GB DDR5\",\n    \"Storage\": \"512GB SSD\",\n    \"Display\": \"15.6\\\" FHD 144Hz\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "selling my ubiquiti unifi ap ac pro access point. poe, 1300mbps 5ghz, great for office. used 3 years. $50.",
+    "expected": {
+      "product_name": "Ubiquiti UniFi AP AC Pro",
+      "brand": "Ubiquiti",
+      "category": "Access Point",
+      "price": {
+        "amount": 50.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 5 (AC)",
+        "type": "access point",
+        "speed": "1300 Mbps on 5 GHz",
+        "features": "PoE"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"Ubiquiti UniFi AP AC Pro Access Point\",\n  \"brand\": \"Ubiquiti\",\n  \"category\": \"Access Points\",\n  \"price\": {\n    \"amount\": 50,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"Poe\": true,\n    \"Bandwidth\": \"1300Mbps\",\n    \"Frequency\": \"5GHz\"\n  },\n  \"condition\": \"used\"\n}"
+  },
+  {
+    "input": "VAIO SX14 ultralight business laptop made in Japan. 14\" FHD, Intel Core i7-1355U, 16GB, 512GB SSD. Carbon fiber body, just 999g. $1,799 new.",
+    "expected": {
+      "product_name": "VAIO SX14",
+      "brand": "VAIO",
+      "category": "Laptops",
+      "price": {
+        "amount": 1799.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "14 inch FHD",
+        "processor": "Intel Core i7-1355U",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "material": "carbon fiber",
+        "weight": "999g"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"VAIO SX14\",\n  \"brand\": \"Sony\",\n  \"category\": \"laptop\",\n  \"price\": {\n    \"amount\": 1799,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"14 inches\",\n    \"display_resolution\": \"FHD\",\n    \"processor\": \"Intel Core i7-1355U\",\n    \"ram\": \"16GB\",\n    \"storage\": \"512GB SSD\",\n    \"weight\": \"999g\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Xiaomi Buds 4 Pro, 11mm+6mm dual drivers, 48dB ANC, LHDC 5.0, IP54, 9hr + 38hr total. \u20b98,999 new.",
+    "expected": {
+      "product_name": "Xiaomi Buds 4 Pro",
+      "brand": "Xiaomi",
+      "category": "Earbuds",
+      "price": {
+        "amount": 8999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "type": "true wireless earbuds",
+        "driver": "11mm + 6mm dual",
+        "battery_life": "9 hours (38 total)",
+        "features": "48dB ANC, LHDC 5.0, IP54"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Xiaomi Buds 4 Pro\",\n  \"brand\": \"Xiaomi\",\n  \"category\": \"headphones\",\n  \"price\": {\n    \"amount\": 8999,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"dual_drivers\": \"11mm+6mm\",\n    \"ANC\": \"48dB\",\n    \"LHDC 5.0\": \"true\",\n    \"IP54\": \"true\",\n    \"total_duration\": \"9hr + 38hr\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Experience cinematic brilliance with the LG OLED77G3PUA 77\" Gallery Edition OLED evo! MLA technology for unmatched brightness, \u03b19 Gen6 AI Processor 4K, Dolby Vision, 120Hz. Flush wall-mount included. $3,496.99.",
+    "expected": {
+      "product_name": "LG OLED77G3PUA",
+      "brand": "LG",
+      "category": "Television",
+      "price": {
+        "amount": 3496.99,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "screen_size": "77 inch",
+        "display_type": "4K OLED evo (MLA)",
+        "processor": "\u03b19 Gen6 AI",
+        "refresh_rate": "120Hz",
+        "features": "Dolby Vision, flush wall-mount included, Gallery Edition"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"LG OLED77G3PUA\",\n  \"brand\": \"LG\",\n  \"category\": \"TV\",\n  \"price\": {\n    \"amount\": 3496.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"technology\": \"OLED\",\n    \"resolution\": \"4K\",\n    \"HDR\": \"Dolby Vision\",\n    \"refresh_rate\": \"120Hz\",\n    \"mounting_option\": \"flush wall-mount\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Thomson 43 OATH 2000 43\" 4K Android TV. 30W Dolby Digital Plus speakers, certified Android 10, Bezel-less design. \u20b923,999. New.",
+    "expected": {
+      "product_name": "Thomson 43 OATH 2000",
+      "brand": "Thomson",
+      "category": "Television",
+      "price": {
+        "amount": 23999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "screen_size": "43 inch",
+        "display_type": "4K LED",
+        "features": "30W Dolby Digital Plus, Android 10, bezel-less"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Thomson 43 OATH 2000 43\\\" 4K Android TV\",\n  \"brand\": \"Thomson\",\n  \"category\": \"TV\",\n  \"price\": {\n    \"amount\": 23999,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"43 inches\",\n    \"resolution\": \"4K\",\n    \"speaker_power\": \"30W\",\n    \"audio_format\": \"Dolby Digital Plus\",\n    \"operating_system\": \"Android 10\",\n    \"design\": \"Bezel-less\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Xiaomi Mesh System AX3000 (2-pack). WiFi 6, Qualcomm chip, 160MHz channels, 2x2 MIMO, covers 3700 sq ft. \u20b95,999. New.",
+    "expected": {
+      "product_name": "Xiaomi Mesh System AX3000",
+      "brand": "Xiaomi",
+      "category": "Mesh System",
+      "price": {
+        "amount": 5999.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "wifi_standard": "WiFi 6 (AX3000)",
+        "pack": "2-pack",
+        "coverage": "3700 sq ft",
+        "features": "Qualcomm chip, 160 MHz channels, 2x2 MIMO"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Xiaomi Mesh System AX3000 (2-pack)\",\n  \"brand\": \"Xiaomi\",\n  \"category\": \"WiFi Router\",\n  \"price\": {\n    \"amount\": 5999,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"channels\": 160MHz,\n    \"mimo\": \"2x2 MIMO\",\n    \"coverage_area\": 3700sqft\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "selling my pixel 7 pro, used for 8 months, 12gb ram 128gb storage, no scratches, tensor g2 chip, 6.7 inch screen, asking $450",
+    "expected": {
+      "product_name": "Google Pixel 7 Pro",
+      "brand": "Google",
+      "category": "Smartphones",
+      "price": {
+        "amount": 450.0,
+        "currency": "USD"
+      },
+      "key_specs": {
+        "display": "6.7 inch",
+        "processor": "Google Tensor G2",
+        "ram": "12GB",
+        "storage": "128GB"
+      },
+      "condition": "used"
+    },
+    "predicted": "{\n  \"product_name\": \"Pixel 7 Pro\",\n  \"brand\": \"Google\",\n  \"category\": \"smartphone\",\n  \"price\": {\n    \"amount\": 450,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"ram\": 12,\n    \"storage\": 128,\n    \"screen_size\": 6.7,\n    \"chipset\": \"Tensor G2\"\n  },\n  \"condition\": \"used\"\n}"
+  },
+  {
+    "input": "Gigabyte AERO 16 OLED, creator laptop with 16\" 4K OLED, Intel Core i9-13900H, RTX 4070, 16GB DDR5, 1TB SSD. Stunning color accuracy.",
+    "expected": {
+      "product_name": "Gigabyte AERO 16 OLED",
+      "brand": "Gigabyte",
+      "category": "Laptops",
+      "price": {
+        "amount": null,
+        "currency": null
+      },
+      "key_specs": {
+        "display": "16 inch 4K OLED",
+        "processor": "Intel Core i9-13900H",
+        "ram": "16GB DDR5",
+        "storage": "1TB SSD",
+        "gpu": "NVIDIA RTX 4070"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"Gigabyte AERO 16 OLED\",\n  \"brand\": \"Gigabyte\",\n  \"category\": \"laptop\",\n  \"price\": {\n    \"amount\": 2999.99,\n    \"currency\": \"$\"\n  },\n  \"key_specs\": {\n    \"screen_type\": \"OLED\",\n    \"screen_size\": \"16 inches\",\n    \"resolution\": \"4K\",\n    \"processor\": \"Intel Core i9-13900H\",\n    \"graphics_card\": \"RTX 4070\",\n    \"memory\": \"16GB DDR5\",\n    \"storage\": \"1TB SSD\"\n  },\n  \"condition\": \"new\"\n}"
+  },
+  {
+    "input": "Lenovo ThinkVision T27p-30 27\" 4K UHD USB-C professional monitor. IPS, 99% sRGB, USB-C 100W, daisy chain, T\u00dcV Rheinland certified, ergonomic stand. \u20b952,990. New.",
+    "expected": {
+      "product_name": "Lenovo ThinkVision T27p-30",
+      "brand": "Lenovo",
+      "category": "Monitor",
+      "price": {
+        "amount": 52990.0,
+        "currency": "INR"
+      },
+      "key_specs": {
+        "screen_size": "27 inch",
+        "resolution": "3840x2160 (4K UHD)",
+        "panel_type": "IPS",
+        "color_gamut": "99% sRGB",
+        "features": "USB-C 100W, daisy chain, T\u00dcV Rheinland, ergonomic stand"
+      },
+      "condition": "new"
+    },
+    "predicted": "{\n  \"product_name\": \"ThinkVision T27p-30\",\n  \"brand\": \"Lenovo\",\n  \"category\": \"Monitor\",\n  \"price\": {\n    \"amount\": 52990,\n    \"currency\": \"\u20b9\"\n  },\n  \"key_specs\": {\n    \"screen_size\": \"27 inches\",\n    \"resolution\": \"4K UHD\",\n    \"color_depth\": \"sRGB (99%)\",\n    \"connection_type\": \"USB-C\",\n    \"power_output\": \"100W\",\n    \"daisy_chain_support\": true,\n    \"certification\": \"T\u00dcV Rheinland certified\",\n    \"stand\": \"ergonomic stand\"\n  },\n  \"condition\": \"New\"\n}"
+  }
+]
