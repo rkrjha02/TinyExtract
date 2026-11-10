@@ -79,9 +79,9 @@ Smartphones, Laptops, Headphones/Earbuds, Televisions, Cameras, Smartwatches, Ta
 TinyExtract/
 ├── README.md
 ├── notebooks/
-│   ├── Phase2_Base_Model_Benchmark.ipynb   # Baseline evaluation
-│   ├── Phase3_LoRA_Fine_Tuning.ipynb       # QLoRA fine-tuning
-│   └── Phase4_Evaluation.ipynb             # Fine-tuned model evaluation & comparison
+│   ├── BaseModelBenchmark.ipynb   # Baseline evaluation
+│   ├── Fine_Tuning.ipynb       # QLoRA fine-tuning
+│   └── FineTunedModelBenchmark.ipynb             # Fine-tuned model evaluation & comparison
 ├── data/
 │   ├── dataset_combined.json               # All 800 examples
 │   ├── dataset_train.json                  # 640 training examples
