@@ -110,18 +110,18 @@ TinyExtract/
 2. **Set GPU runtime**
    - Runtime → Change runtime type → T4 GPU
 
-3. **Run Phase 2** (`Phase2_Base_Model_Benchmark.ipynb`)
+3. **Run Phase 2** (`BaseModelBenchmark.ipynb`)
    - Upload `dataset_test.json` when prompted
    - Runs the base Qwen2.5-1.5B-Instruct model on 80 test examples
    - Saves baseline scores
 
-4. **Run Phase 3** (`Phase3_LoRA_Fine_Tuning.ipynb`)
+4. **Run Phase 3** (`Fine_Tuning.ipynb`)
    - Upload `dataset_train.json` and `dataset_val.json` when prompted
    - Fine-tunes the model using QLoRA
    - Saves the LoRA adapter (~16MB)
    - Training takes ~12-16 minutes
 
-5. **Run Phase 4** (`Phase4_Evaluation.ipynb`)
+5. **Run Phase 4** (`FineTunedModelBenchmark.ipynb`)
    - Upload the adapter zip, `dataset_test.json`, and `benchmark_report.json`
    - Runs the fine-tuned model on the same 80 test examples
    - Produces the comparison report
